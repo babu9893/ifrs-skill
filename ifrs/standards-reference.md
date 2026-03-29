@@ -1608,3 +1608,588 @@ Search for the specific standard number (e.g., "IFRS 15" or "IAS 36") rather tha
 **Related standards:** IAS 2 (inventories — agricultural produce after harvest), IAS 16 (PP&E — bearer plants, agricultural land at cost), IAS 20 (government grants — general; IAS 41 overrides for in-scope biological assets), IAS 36 (impairment — applies to biological assets measured at cost under the unreliable fair value exception), IAS 40 (investment property — land used in agriculture), IFRS 13 (fair value measurement hierarchy)
 
 ---
+> Covers IFRS 1, 2, 3, 5, 6, 7, 8, and 9. IFRS 4 is omitted as it has been superseded by IFRS 17 — Insurance Contracts (effective 1 January 2023).
+
+---
+
+## IFRS 1 — First-time Adoption of International Financial Reporting Standards
+
+**Scope:** Applies to an entity preparing its first IFRS financial statements — i.e., the first annual financial statements in which the entity explicitly and unreservedly states compliance with IFRS. Also applies to interim financial reports presented under IAS 34 that cover part of the period covered by those first IFRS financial statements. Does not apply to entities that previously applied IFRS, discontinued, and are resuming (unless the gap was less than one full annual period).
+
+**Core principle:** A first-time adopter must prepare an opening IFRS statement of financial position at the date of transition (the beginning of the earliest comparative period presented) and, in general, apply all IFRS effective at the end of its first IFRS reporting period retrospectively to that opening balance sheet.
+
+**Key rules:**
+- **Date of transition:** The beginning of the earliest comparative period presented in the first IFRS financial statements. For example, if the first IFRS financial statements cover the year ended 31 December 2025 with one comparative year, the transition date is 1 January 2024.
+- **Mandatory exceptions (retrospective application is prohibited):**
+  - Estimates — IFRS estimates at transition date must be consistent with estimates made under previous GAAP at that date (unless there is objective evidence of error)
+  - Derecognition of financial assets and liabilities — assets/liabilities derecognised under previous GAAP before the transition date are generally not reinstated
+  - Hedge accounting — hedge relationships that did not qualify under IFRS 9 cannot be retrospectively designated
+  - Non-controlling interests — specific requirements under IFRS 10
+  - Classification and measurement of financial instruments — assessed based on facts and circumstances at transition date
+- **Optional exemptions (elections available to ease transition):**
+  - Business combinations — can elect not to restate combinations before the transition date (IFRS 3 exemption)
+  - Deemed cost — can use fair value, a revaluation, or a previous GAAP carrying amount as deemed cost for PP&E, investment property (if using cost model), or intangible assets at transition date
+  - Leases — can apply IFRS 16 at transition date without restating comparatives (modified retrospective approach)
+  - Employee benefits — can recognise all cumulative actuarial gains/losses at transition date (corridor method elimination)
+  - Cumulative translation differences — can reset cumulative FX differences to zero at transition date
+  - Share-based payments — need not apply IFRS 2 to equity instruments granted before 7 November 2002, or vested before transition date
+  - Insurance contracts — limited exemption; largely replaced by IFRS 17 transition provisions
+  - Fair value measurement of financial instruments — can designate financial assets/liabilities at FVTPL at transition date
+- **Reconciliations required:**
+  - Equity at transition date and at the end of the last period under previous GAAP
+  - Total comprehensive income for the last period under previous GAAP
+  - Cash flows if material differences exist
+- **Impairment:** Must apply IAS 36 impairment indicators at the transition date; any resulting impairment is recognised in retained earnings or OCI as appropriate.
+
+**Disclosure requirements:**
+- Explanation of how the transition affected financial position, financial performance, and cash flows
+- Reconciliation of equity (transition date and end of last previous GAAP period)
+- Reconciliation of total comprehensive income for the last period
+- Explanation of material adjustments to the cash flow statement
+- If the entity recognised or reversed impairment losses for the first time, the disclosures required by IAS 36
+- For deemed cost elections: aggregate of fair values used and aggregate adjustment to carrying amounts
+- Description of each voluntary exemption applied and the basis
+
+**Common pitfalls:**
+- Failing to identify the correct transition date, particularly where comparative periods extend further back than expected
+- Applying estimates with hindsight — IFRS 1 prohibits using information available after the transition date to revise estimates
+- Overlooking mandatory exceptions while focusing on elective exemptions
+- Inconsistent application of opening balance sheet adjustments between equity reconciliation and the actual opening balance sheet
+- Not restating deferred tax for all temporary differences arising on transition
+- Misclassifying financial instruments by applying IFRS 9 criteria based on current facts rather than facts at transition date
+
+**Related standards:** IFRS 3 (business combinations exemption), IFRS 9 (financial instruments classification at transition), IFRS 16 (lease transition), IFRS 17 (insurance contracts transition), IAS 12 (deferred tax on transition adjustments), IAS 19 (employee benefits exemption), IAS 21 (FX translation differences exemption), IAS 36 (impairment at transition), IAS 38 (intangibles deemed cost), IAS 39 (superseded; relevant for historical comparison)
+
+---
+
+## IFRS 2 — Share-based Payment
+
+**Scope:** Applies to all share-based payment transactions in which an entity receives goods or services, including:
+- Equity-settled share-based payments
+- Cash-settled share-based payments
+- Transactions with a choice of settlement (equity or cash)
+Excludes: business combinations (IFRS 3), interests in subsidiaries/joint ventures/associates acquired in share-based transactions. Also excludes transactions within the scope of IAS 32/IFRS 9 where the entity acquires financial instruments (rather than goods or services).
+
+**Core principle:** An entity must recognise the goods or services received in a share-based payment transaction when the goods are obtained or as the services are received, with a corresponding increase in equity (equity-settled) or a liability (cash-settled), measured at the fair value of those goods or services, or, if that fair value cannot be reliably estimated, at the fair value of the equity instruments granted.
+
+**Key rules:**
+- **Equity-settled transactions:**
+  - Measured at the **grant date fair value** of the equity instruments granted; this amount is never subsequently remeasured
+  - Fair value determined using an option pricing model (Black-Scholes, binomial/lattice model) considering: exercise price, expected life, current share price, expected volatility, expected dividends, and risk-free interest rate
+  - If goods/services received from non-employees: measured at fair value of goods/services unless that cannot be reliably estimated, in which case use equity instrument fair value at the date of receipt
+  - Recognised over the **vesting period** (from grant date to vesting date); expensed on a straight-line basis unless a different attribution is more appropriate
+  - **Vesting conditions:**
+    - *Service conditions*: reflected in the number of equity instruments expected to vest; estimate revised each period
+    - *Performance conditions (market-based)*: e.g., TSR — incorporated into grant date fair value; not revised for actual outcome
+    - *Performance conditions (non-market)*: e.g., EPS targets — reflected in the number expected to vest; revised each period
+    - *Non-vesting conditions*: incorporated into grant date fair value measurement; not revised
+  - On vesting: no adjustment if actual instruments differ from those expected (except for service and non-market performance conditions)
+  - **Modifications:** If the modification increases the fair value or number of instruments, recognise the incremental fair value over the remaining vesting period. Never reduce the minimum cumulative expense to below the original grant date fair value.
+  - **Cancellations and settlements:** Treat as vesting — accelerate recognition of remaining expense. Any payment to employee on cancellation up to the fair value of the instruments is a deduction from equity; excess is an expense.
+- **Cash-settled transactions:**
+  - Recognise a liability measured at the **fair value of the liability** at each reporting date and at settlement date
+  - Remeasure at each reporting date; changes in fair value recognised in profit or loss
+  - Common example: share appreciation rights (SARs), phantom shares
+- **Transactions with choice of settlement:**
+  - If the *counterparty* has the choice: contains a debt component (present value of cash alternative) and an equity component (residual)
+  - If the *entity* has the choice: account as cash-settled unless the entity has a past practice or stated policy of settling in equity, or the cash alternative has no commercial substance
+- **Group share-based payment arrangements:**
+  - The entity receiving goods or services accounts for the arrangement based on whether its own obligation is equity-settled or cash-settled
+  - The entity settling the award accounts for it accordingly (may differ from the receiving entity's classification)
+
+**Disclosure requirements:**
+- Nature and extent: description of each type of arrangement, number and weighted-average exercise prices of options (granted, exercised, forfeited, expired, outstanding, exercisable)
+- Fair value information: method, weighted-average assumptions used in the valuation model
+- Effect on profit or loss and financial position: total expense recognised, liabilities at period-end and intrinsic value of vested liabilities
+- For equity-settled: total carrying amount in equity
+- IFRIC 11 (Group and Treasury Share Transactions) — superseded but embedded in IFRS 2 amendments (2009)
+
+**Common pitfalls:**
+- Remeasuring equity-settled awards after grant date (prohibited — only the number is revised, not fair value)
+- Incorrectly classifying cash-settled versus equity-settled in group arrangements
+- Failing to recognise an expense when vesting conditions are not met due to market conditions (market-based conditions are embedded in fair value — expense is recognised regardless of whether target is met)
+- Underestimating the complexity of modifications — incremental value must be measured on the modification date
+- Ignoring non-vesting conditions in the fair value model
+- Using intrinsic value instead of fair value when a valuation model is practicable
+
+**Related standards:** IFRS 3 (business combinations exclusion), IFRS 9 / IAS 32 (financial instruments exclusion), IAS 12 (deferred tax on share-based payments — temporary difference arises when tax deduction differs from cumulative IFRS 2 expense), IFRIC 11 (incorporated into IFRS 2 for group arrangements)
+
+---
+
+## IFRS 3 — Business Combinations
+
+**Scope:** Applies to transactions that meet the definition of a business combination — transactions in which an acquirer obtains control of one or more businesses. A **business** is an integrated set of activities and assets capable of being conducted and managed to provide a return to investors or other owners, members, or participants. Excludes: formation of joint arrangements (IFRS 11), combinations of entities under common control (no current IFRS; typically policy applied by analogy), acquisition of an asset or group of assets that does not constitute a business.
+
+**Core principle:** All business combinations are accounted for using the **acquisition method**. On the acquisition date, the acquirer recognises and measures the identifiable assets acquired, liabilities assumed, and any non-controlling interest (NCI) in the acquiree, and recognises goodwill or a gain from a bargain purchase.
+
+**Key rules:**
+- **Identifying the acquirer:** The entity that obtains control (IFRS 10 definition of control); the acquirer is usually the entity that transfers cash/other assets, issues equity, or is larger. In reverse acquisitions, the legal subsidiary may be the accounting acquirer.
+- **Acquisition date:** The date on which the acquirer obtains control.
+- **Recognition and measurement of identifiable assets and liabilities:**
+  - Measured at **fair value** at the acquisition date
+  - Identifiable intangibles must be recognised separately from goodwill if they arise from contractual/legal rights or are separable — even if not previously recognised by the acquiree (e.g., customer relationships, trade names, in-process R&D)
+  - Contingent liabilities assumed: recognised at fair value if a present obligation exists, regardless of probability — unlike IAS 37
+  - Operating leases: acquiree's favourable/unfavourable contracts recognised as intangible assets/liabilities; acquirer's own right-of-use assets and lease liabilities recognised under IFRS 16
+  - Deferred tax: recognised per IAS 12 on temporary differences arising from fair value adjustments
+- **Non-controlling interests (NCI):**
+  - Option 1 (full goodwill / fair value method): NCI measured at fair value — results in full goodwill including the NCI's share
+  - Option 2 (partial goodwill / proportionate share method): NCI measured at proportionate share of identifiable net assets — results in goodwill attributable to the acquirer only
+  - Election is available on a transaction-by-transaction basis
+- **Goodwill:**
+  - Goodwill = Consideration transferred + NCI + FV of previously held interest − FV of identifiable net assets
+  - Not amortised; subject to annual impairment testing under IAS 36 (cash-generating unit level)
+  - Negative goodwill (bargain purchase): reassess identification and measurement, then recognise the gain immediately in profit or loss
+- **Consideration transferred:**
+  - Measured at fair value at acquisition date
+  - Includes cash, other assets, equity instruments issued, contingent consideration
+  - **Contingent consideration:** Recognised at fair value at acquisition date; subsequent changes in liability (financial liability) recognised in P&L; equity-classified contingent consideration is not remeasured
+- **Previously held interest (step acquisitions):**
+  - Remeasured to fair value at the acquisition date; gain or loss recognised in P&L
+- **Transaction costs:** Expensed as incurred (not added to goodwill)
+- **Measurement period:** Up to 12 months from acquisition date to finalise provisional fair values; adjustments made retrospectively to acquisition date amounts, with corresponding goodwill adjustment
+- **Post-acquisition accounting for contingent liabilities:** Measured at the higher of IAS 37 amount and initial recognised amount (less cumulative amortisation per IFRS 15)
+- **Common control transactions:** Not in scope; entities typically apply predecessor value method or a pooling-of-interests approach by analogy
+
+**Disclosure requirements:**
+- Name and description of acquiree, acquisition date, percentage of voting equity acquired
+- Primary reasons for the combination and description of how control was obtained
+- Fair values of consideration transferred (each class), NCI, previously held equity interests
+- Amounts recognised for each major class of assets and liabilities at acquisition date
+- Contingent consideration: description, basis for measurement, range of outcomes
+- Goodwill amount and reasons why the acquisition resulted in goodwill (or bargain purchase explanation)
+- Revenue and profit/loss of the combined entity for the current period as if acquisition date had been the beginning of the annual reporting period (pro-forma information)
+- Subsequent adjustments to provisional amounts during the measurement period
+
+**Common pitfalls:**
+- Failing to identify and separately value intangible assets (particularly customer relationships and technology)
+- Expensing acquisition-related costs but then capitalising post-acquisition integration costs that should also be expensed
+- Incorrect treatment of contingent consideration — reclassification between liability and equity after initial recognition is not permitted
+- Using the wrong NCI measurement method inconsistently (note: choice is per transaction)
+- Misidentifying whether a transaction is a business combination or an asset acquisition (significant impact: no goodwill, no deferred tax gross-up in asset acquisitions)
+- Overlooking the 12-month measurement period discipline — adjustments after the period close are taken to P&L
+- Step acquisitions: forgetting to remeasure previously held interests to fair value
+
+**Related standards:** IFRS 10 (control definition), IFRS 11 (joint arrangements — excluded), IFRS 13 (fair value measurement), IFRS 16 (lease accounting in acquisitions), IAS 12 (deferred tax on acquisition), IAS 36 (goodwill impairment), IAS 37 (contingent liabilities — modified criteria under IFRS 3), IAS 38 (intangible assets recognition in acquisitions)
+
+---
+
+## IFRS 5 — Non-current Assets Held for Sale and Discontinued Operations
+
+**Scope:** Applies to accounting for non-current assets (or disposal groups) held for sale and to the presentation and disclosure of discontinued operations. A **disposal group** is a group of assets to be disposed of together (and directly associated liabilities). Excludes from the measurement requirements (but not presentation): deferred tax assets (IAS 12), employee benefit assets (IAS 19), financial assets within scope of IFRS 9, investment property measured at fair value (IAS 40), biological assets at fair value less costs to sell (IAS 41), and contractual rights under insurance contracts (IFRS 17).
+
+**Core principle:** Non-current assets (or disposal groups) that are classified as held for sale are measured at the **lower of carrying amount and fair value less costs to sell**, and are no longer depreciated. They are presented separately in the statement of financial position. Results of discontinued operations are presented separately in the income statement.
+
+**Key rules:**
+- **Classification as held for sale — ALL of the following criteria must be met:**
+  1. The asset must be available for immediate sale in its present condition (subject only to terms that are usual and customary for sales of such assets)
+  2. The sale must be highly probable:
+     - Management (appropriate level) is committed to a plan to sell
+     - Active programme to locate a buyer has been initiated
+     - Asset is actively marketed at a price reasonable in relation to its current fair value
+     - Sale expected to be completed within **12 months** from classification date
+     - It is unlikely that the plan will be significantly changed or withdrawn
+  - Extension beyond 12 months is permitted only in limited circumstances beyond the entity's control (e.g., buyer requires regulatory approval, unusual market conditions), provided the entity remains committed
+- **Measurement:**
+  - Reclassify to held for sale at lower of: (a) carrying amount immediately before reclassification (apply applicable IFRS up to that point) and (b) fair value less costs to sell (FVLCTS)
+  - Any write-down to FVLCTS is an impairment loss recognised in P&L
+  - Subsequent increases in FVLCTS are recognised as gains (not exceeding cumulative impairment losses)
+  - **No depreciation or amortisation** from the date of held-for-sale classification
+  - Deferred tax and pension liabilities in a disposal group are measured per their own standards; the shortfall (if FVLCTS < net assets excluding scoped-out items) is allocated against the carrying amounts of non-current assets in scope, in the order: goodwill first, then pro-rata to remaining non-current assets
+- **Discontinued operation:** A component of an entity that:
+  - Has been disposed of or classified as held for sale, AND
+  - Represents either a separate major line of business or geographical area, is part of a single co-ordinated plan to dispose of such a line/area, OR is a subsidiary acquired exclusively with a view to resale
+  - A component is operations and cash flows that can be clearly distinguished, operationally and for financial reporting purposes, from the rest of the entity
+- **Presentation:**
+  - Non-current assets held for sale: presented separately in current assets (not reclassified in comparatives unless required by IAS 1)
+  - Liabilities of disposal group: presented separately in current liabilities
+  - Discontinued operations: single line in P&L for post-tax profit/loss from discontinued operations + post-tax gain/loss on measurement or disposal (detailed breakdown in notes or on the face)
+  - Cash flows from discontinued operations: disclosed separately (either on face or in notes)
+  - Comparatives for income statement and cash flows are restated to show discontinued operations separately
+- **Assets no longer classified as held for sale:** Remeasured at lower of (a) carrying amount before classification (adjusted for depreciation that would have been recognised) and (b) recoverable amount; any adjustment recognised in P&L from continuing operations
+
+**Disclosure requirements:**
+- Description of the non-current asset or disposal group
+- Description of the facts and circumstances of the sale (or expected sale) and the expected manner and timing of disposal
+- Gain or loss recognised and the line item in P&L where it is included (if not separately presented)
+- Segment in which the asset/disposal group is reported (IFRS 8)
+- For discontinued operations: revenue, expenses, pre-tax profit/loss, income tax, gain/loss on disposal, related tax — either on face or in notes
+- Cash flow information for discontinued operations
+- If classification criteria are no longer met: description of facts and circumstances leading to the decision and the effect on results
+
+**Common pitfalls:**
+- Premature classification — the 12-month criterion and commitment criteria must all be met simultaneously; intent alone is insufficient
+- Continuing to depreciate assets after held-for-sale classification
+- Misidentifying a discontinued operation — cessation of a product line that is not a separate major line of business does not qualify
+- Failing to restate comparative income statement and cash flow information for discontinued operations
+- Incorrectly applying the measurement hierarchy when scoped-out items (e.g., deferred tax) cause the disposal group to appear loss-making
+- Not recognising impairment when FVLCTS falls below carrying amount
+
+**Related standards:** IFRS 3 (disposal in step-down transactions), IFRS 8 (segment reporting of disposal groups), IFRS 13 (fair value measurement), IAS 12 (deferred tax in disposal groups), IAS 16 (PP&E — depreciation ceases), IAS 36 (impairment testing before reclassification), IAS 37 (provisions on disposal)
+
+---
+
+## IFRS 6 — Exploration for and Evaluation of Mineral Resources
+
+**Scope:** Applies to exploration and evaluation (E&E) expenditures — those incurred after an entity has obtained legal rights to explore in a specific area but before the technical feasibility and commercial viability of extracting a mineral resource is demonstrable. Does not apply to: expenditures incurred before obtaining legal rights (pre-licence costs — expensed under IAS 38/Conceptual Framework), expenditures after technical feasibility and commercial viability are demonstrable (development phase — IAS 16/IAS 38 apply). Note: IFRS 6 is an interim standard — the IASB acknowledges it defers a comprehensive treatment of extractive industries.
+
+**Core principle:** An entity may develop an accounting policy for E&E expenditures that results in information that is relevant and reliable; the standard provides a temporary exemption from fully applying the Conceptual Framework's recognition criteria, allowing entities to continue using policies that were acceptable under previous GAAP.
+
+**Key rules:**
+- **Recognition:** An entity must determine its own accounting policy for which E&E expenditures are capitalised as E&E assets. The policy must be consistent; once expenditures are capitalised, the entity cannot expense them in a later period without evidence of impairment.
+  - Costs that may be included: acquisition of rights to explore, topographical/geological/geochemical surveys, exploratory drilling, trenching, sampling, activities related to evaluating technical feasibility and commercial viability
+  - Costs that cannot be included: administrative and general overhead not directly attributable to E&E activity
+- **Classification:** E&E assets are classified as tangible (e.g., drilling rigs, vehicles) or intangible (e.g., drilling rights, licences). Classification is applied consistently.
+- **Measurement after recognition:**
+  - Cost model: cost less accumulated amortisation and impairment
+  - Revaluation model: permitted if the applicable IAS (IAS 16 for tangible, IAS 38 for intangible) permits it for that asset class
+- **Reclassification:** When technical feasibility and commercial viability are demonstrable, E&E assets are reclassified out of IFRS 6 and into development assets (IAS 16 / IAS 38). Test for impairment immediately before reclassification.
+- **Impairment:** IFRS 6 provides a modified impairment test:
+  - Indicators (not exhaustive): the licence period is expiring and renewal is not expected; no substantive further E&E planned for the area; the decision to discontinue E&E and the asset does not meet the held-for-sale criteria; evidence that carrying amount will not be recovered from successful development or sale
+  - Level of aggregation: E&E assets may be grouped for impairment testing into cash-generating units no larger than an operating segment
+  - Once an impairment indicator exists, the entity must determine recoverable amount per IAS 36 and recognise any impairment loss; the modified IAS 36 approach does not alter the measurement of impairment
+
+**Disclosure requirements:**
+- Accounting policies for E&E expenditures, including the basis on which assets are recognised
+- Amounts of E&E assets capitalised and treated as expense during the period
+- Amounts arising from exploration and evaluation: in the income statement, and in the statement of financial position (with E&E assets identified separately from other assets)
+- Information that identifies and explains amounts in the financial statements arising from E&E
+- The level at which impairment is assessed
+
+**Common pitfalls:**
+- Capitalising pre-licence costs that must be expensed under the Conceptual Framework
+- Continuing to carry E&E assets after technical feasibility is demonstrated without reclassifying under IAS 16 or IAS 38
+- Applying an inconsistent capitalisation threshold across licences or regions
+- Failing to perform the impairment trigger assessment when licences approach expiry or exploration plans are abandoned
+- Using a CGU group larger than an operating segment for impairment testing (the IFRS 6 ceiling)
+- Not disclosing the accounting policy for capitalisation clearly — regulators frequently challenge vague policies
+
+**Related standards:** IAS 16 (PP&E — tangible E&E assets and development assets), IAS 36 (impairment — modified application under IFRS 6), IAS 37 (decommissioning obligations on E&E assets), IAS 38 (intangibles — applies post-reclassification), IFRS 5 (if E&E assets are classified as held for sale), IFRS 8 (operating segments — relevant for impairment CGU ceiling)
+
+---
+
+## IFRS 7 — Financial Instruments: Disclosures
+
+**Scope:** Applies to all entities for all types of financial instruments, except: interests in subsidiaries, associates, and joint ventures accounted for under IFRS 10, 11, or IAS 28 (unless those standards require IFRS 7 disclosures or the interest is a financial instrument under IFRS 9); employers' rights and obligations from employee benefit plans (IAS 19); insurance contracts (IFRS 17) except financial guarantee contracts and investment components; financial instruments designated as hedging instruments and accounted for under IFRS 9; financial instruments that are equity instruments of the reporting entity.
+
+**Core principle:** Entities must disclose information that enables users of financial statements to evaluate: (1) the significance of financial instruments for the entity's financial position and performance; and (2) the nature and extent of risks arising from financial instruments, and how the entity manages those risks.
+
+**Key rules:**
+- **Classes of financial instruments:** Disclosures are made by class — a grouping appropriate to the nature of the information and characteristics of the instruments. Entities must reconcile classes to line items in the statement of financial position.
+- **Significance disclosures (Part A):**
+  - **Statement of financial position:** carrying amounts by IFRS 9 category (amortised cost, FVOCI — debt, FVOCI — equity, FVTPL); net gains/losses by category
+  - **Fair value:** For instruments not measured at fair value, disclose fair value if practicable; for all instruments measured at fair value, apply the three-level hierarchy (IFRS 13)
+  - **Fair value hierarchy (IFRS 13 cross-reference):**
+    - Level 1: Quoted prices in active markets for identical assets/liabilities
+    - Level 2: Inputs other than Level 1 that are observable (directly or indirectly)
+    - Level 3: Unobservable inputs — entity's own assumptions
+    - Disclose transfers between Level 1 and Level 2; explain Level 3 movements with reconciliation
+  - **Income statement and equity:** Interest income/expense; fee income/expense; impairment losses; gains/losses on derecognition
+  - **Hedge accounting disclosures:**
+    - Risk management strategy and how it relates to the hedging instrument
+    - Hedging instruments: amounts, carrying values, line items in balance sheet, change in fair value
+    - Hedged items: carrying amounts, accumulated OCI (cost of hedging reserve), change in value used for hedge effectiveness
+    - Hedge effectiveness: sources of ineffectiveness, amounts of ineffectiveness in P&L, hedge ratio
+    - Reconciliation of hedging reserve movements
+  - **Credit risk:**
+    - Maximum exposure, collateral and credit enhancements held
+    - For financial assets at amortised cost and FVOCI (debt): gross carrying amount, loss allowance, credit quality analysis using credit risk grades
+    - **ECL staging disclosures:**
+      - Stage 1 (12-month ECL): amounts at each balance sheet date
+      - Stage 2 (lifetime ECL — not credit-impaired): amounts
+      - Stage 3 (lifetime ECL — credit-impaired): amounts, interest revenue using the net carrying amount
+      - POCI (purchased or originated credit-impaired): separate disclosure
+    - Reconciliation of gross carrying amounts and loss allowances (opening to closing)
+    - Write-off policy, collateral and other credit enhancements obtained during the period
+    - Modifications: how modified assets were assessed, carrying amount of assets modified while in Stage 2/3
+    - Assumptions and inputs used in ECL models (including forward-looking information used)
+  - **Liquidity risk:**
+    - Maturity analysis of financial liabilities (including derivatives) showing contractual undiscounted cash flows
+    - Description of how liquidity risk is managed
+  - **Market risk:**
+    - Sensitivity analysis for each type of market risk (interest rate, currency, equity price, commodity price): showing the effect on P&L and equity of a reasonably possible change
+    - Alternatively: Value-at-Risk (VaR) analysis with specific disclosures about methodology and parameters
+    - Concentrations of risk
+  - **Capital disclosures (IAS 1 requirement cross-referenced):** Objectives, policies, and processes for managing capital
+
+**Disclosure requirements:**
+- Quantitative and qualitative disclosures for credit risk, liquidity risk, and market risk
+- Fair value disclosures including the level hierarchy and any transfers between levels
+- Collateral information — pledged as security and held as collateral
+- Compound financial instruments with multiple embedded derivatives
+- Defaults and breaches of loan agreements
+- Financial assets transferred but not derecognised (e.g., securitisations, repo agreements): nature of continuing involvement, carrying amounts, associated liabilities
+- Netting arrangements: gross amounts, amounts offset, net amounts
+
+**Common pitfalls:**
+- Inadequate description of ECL methodology — disclosures must explain forward-looking macroeconomic factors, not just state that they are used
+- Omitting the reconciliation of loss allowances (movement table from opening to closing)
+- Insufficient granularity in the maturity analysis for liquidity risk — using contractual maturities only, without also providing behavioural maturities where relevant
+- Failing to disclose Level 3 sensitivity analysis or the valuation techniques for Level 3 instruments
+- Boilerplate sensitivity analyses that do not reflect actual risk exposure
+- Not disclosing concentrations of credit risk by geography, industry, or counterparty where material
+- Overlooking disclosures for transferred financial assets (repos, securities lending, factoring with retained risk)
+
+**Related standards:** IFRS 9 (measurement and recognition — IFRS 7 disclosures must mirror IFRS 9 categories), IFRS 13 (fair value measurement and hierarchy), IAS 1 (capital disclosures; presentation), IAS 32 (financial instrument definitions; offset criteria), IFRIC 16 (hedges of net investments — relevant for hedge disclosures)
+
+---
+
+## IFRS 8 — Operating Segments
+
+**Scope:** Applies to the separate or consolidated financial statements of an entity whose debt or equity instruments are traded in a public market, or that files (or is in the process of filing) its financial statements with a securities commission or other regulatory organisation for the purpose of issuing any class of instrument in a public market. Parent entities that present consolidated financial statements apply IFRS 8 only at the consolidated level (not required for the separate financial statements). Entities that are not publicly accountable are encouraged but not required to apply IFRS 8.
+
+**Core principle:** An entity must report financial and descriptive information about its reportable operating segments, based on internal information used by the chief operating decision maker (CODM) to allocate resources and assess performance — the **management approach**.
+
+**Key rules:**
+- **Operating segment definition:** A component of an entity that:
+  1. Engages in business activities from which it may earn revenues and incur expenses
+  2. Whose operating results are regularly reviewed by the CODM
+  3. For which discrete financial information is available
+  - A segment may be a single product/service line or encompass multiple products/services; start-up activities that have not yet earned revenues are still operating segments
+- **CODM:** The function (not necessarily a single individual) that allocates resources and assesses segment performance — could be the CEO, executive committee, or board
+- **Aggregation criteria:** Two or more operating segments may be aggregated into a single reportable segment if they have similar economic characteristics AND are similar in each of: nature of products/services, nature of production processes, type/class of customer, distribution methods, and regulatory environment
+- **Quantitative thresholds:** A segment is reportable if ANY of the following applies:
+  - Revenue (including intersegment): ≥ 10% of combined revenue of all operating segments
+  - Reported profit or loss: absolute amount ≥ 10% of the greater of (a) combined profits of all profitable segments or (b) combined losses of all loss-making segments
+  - Assets: ≥ 10% of combined assets of all operating segments
+- **75% test:** The total external revenue attributable to reportable segments must be at least 75% of total external revenue. If not met, additional segments must be identified as reportable (even if below the 10% thresholds) until the 75% threshold is reached.
+- **All other segments:** Remaining segments are combined and disclosed as "all other segments" — not a single reportable segment; revenue sources must be described
+- **Practical maximum:** No specific maximum number of segments, but IFRS 8 notes that above approximately 10 segments, disclosures may become overly detailed
+- **Measurement:** Segment information is reported on the basis used internally by the CODM — this may not conform to IFRS. Differences between segment totals and IFRS-compliant totals must be reconciled.
+- **Restatement:** When the composition of segments changes, prior period comparatives must be restated unless the information is not available and cannot be reasonably determined; if not restated, disclose both old and new segment information in the year of change
+
+**Disclosure requirements:**
+- General information: factors used to identify operating segments, types of products/services in each segment
+- Segment profit/loss, segment assets, segment liabilities (if regularly provided to CODM)
+- Specific items if included in segment profit/loss or reviewed by CODM: revenue (external and intersegment), depreciation/amortisation, material items of income and expense (IAS 1.97), interest income and expense (separately, unless the CODM reviews net interest), income tax expense, significant non-cash items other than depreciation
+- Basis of measurement for each reported segment measure
+- **Reconciliations** (mandatory):
+  - Total segment revenues to entity revenue
+  - Total segment profit/loss to entity profit/loss before tax (and discontinued operations)
+  - Total segment assets to entity assets
+  - Total segment liabilities to entity liabilities (if segment liabilities reported)
+  - Any other material segment items to corresponding entity amounts
+- **Entity-wide disclosures** (required even for a single-segment entity):
+  - Revenues from external customers: by product/service line
+  - Revenues from external customers: by geographic area (country of domicile; any individual foreign country that is material)
+  - Non-current assets: by geographic area (country of domicile; any individual material foreign country) — excludes financial instruments, deferred tax, post-employment benefit assets, and rights arising under insurance contracts
+  - Information about major customers: if any single external customer accounts for ≥ 10% of revenue, disclose that fact, the revenue, and the segment reporting that revenue (not the customer identity)
+
+**Common pitfalls:**
+- Misidentifying the CODM — leads to incorrect segment identification; the CODM function is key, not the individual's title
+- Aggregating segments that have different economic characteristics without sufficient justification
+- Reporting segment information in a way that does not match what the CODM actually reviews — the management approach should be applied faithfully, not rationalised after the fact
+- Failing to provide the 75% reconciliation test check before finalising the number of reportable segments
+- Omitting entity-wide disclosures for a single-reportable-segment entity
+- Not restating prior period comparatives when the segment structure changes
+- Disclosing segment liabilities inconsistently — if regularly reviewed by CODM, they must be disclosed
+
+**Related standards:** IAS 1 (material items of income and expense; capital management), IAS 36 (goodwill allocation to segments for impairment testing), IFRS 3 (business combinations may create new segments), IFRS 5 (discontinued operations and their interaction with segment disclosures)
+
+---
+
+## IFRS 9 — Financial Instruments
+
+**Scope:** Applies to all financial instruments except: interests in subsidiaries, associates, and joint ventures (IFRS 10, 11, IAS 27, IAS 28 — unless designated at FVTPL for venture capital/similar entities); rights and obligations in leases (IFRS 16 — except for impairment of lease receivables and derecognition of lease liabilities); employee benefit plan rights and obligations (IAS 19); equity instruments issued by the entity (IAS 32); insurance contracts (IFRS 17 — except for certain financial guarantee contracts meeting the IFRS 9 definition, at issuer's election); certain loan commitments (not measured at FVTPL); financial instruments, contracts, and obligations under share-based payment transactions (IFRS 2). Applies to financial guarantee contracts and commitments to provide a loan at below-market interest rate.
+
+**Core principle:** Financial instruments must be classified and measured on the basis of the entity's business model for managing financial assets and the cash flow characteristics of the financial asset. Impairment is based on expected (not incurred) credit losses. Hedge accounting may be applied when hedging relationships meet specified criteria and reflect the entity's risk management activities.
+
+---
+
+### Part A: Classification and Measurement
+
+#### Financial Assets — Classification Decision Tree
+
+**Step 1 — SPPI Test (Solely Payments of Principal and Interest):**
+
+Assess whether the contractual cash flows are solely payments of principal and interest on the principal amount outstanding.
+- **Principal:** fair value of the financial asset at initial recognition
+- **Interest:** consideration for the time value of money, credit risk, other basic lending risks (e.g., liquidity risk), and a profit margin
+- **Fails SPPI if:**
+  - Cash flows are linked to an equity index or commodity price
+  - Leverage in cash flows (e.g., inverse floater, leveraged interest rate)
+  - Non-recourse features that significantly limit cash flows (depends on instrument; some non-recourse pass the SPPI test)
+  - Prepayment or extension terms that are not symmetric and not solely compensation for early termination (unless the *de minimis* or *solely compensation* exception applies)
+  - Contractually linked instruments (CLOs, CDOs) unless assessed using a look-through to the underlying pool and the pool itself passes SPPI
+- **Modified time value of money:** If interest is reset periodically but the reset frequency does not match the tenor, assess whether the difference is *de minimis* or whether the instrument behaves like a basic lending arrangement (benchmark comparison)
+
+**Step 2 — Business Model Test:**
+
+Determine the business model in which the financial asset is held:
+
+| Business Model | Description | Classification |
+|---|---|---|
+| Hold to collect | Objective is to collect contractual cash flows; sales are incidental | Amortised cost (if SPPI passes) |
+| Hold to collect and sell | Objective is both collecting cash flows and selling assets | FVOCI — debt instrument (if SPPI passes) |
+| Other / trading / residual | Objective is primarily to realise fair value gains; any other model | FVTPL (regardless of SPPI) |
+
+- Business model is assessed at a portfolio/group level, not instrument-by-instrument
+- Frequency, volume, and timing of past sales are considered; a single sale does not change the business model; a change of business model is rare and requires significant changes in operations
+- **FVTPL designation (OCI election):** Even if SPPI passes and business model is hold-to-collect, an entity may designate a financial asset at FVTPL if doing so eliminates or significantly reduces an accounting mismatch — irrevocable at initial recognition
+- **Equity instruments:** Cannot pass SPPI; always FVTPL unless irrevocably elected at initial recognition to measure at FVOCI (only for equity instruments that are not held for trading); FVOCI equity gains/losses are never recycled to P&L — only dividend income is recognised in P&L
+
+#### Financial Assets — Measurement Summary
+
+| Category | Initial measurement | Subsequent measurement | Impairment |
+|---|---|---|---|
+| Amortised cost | Fair value + directly attributable transaction costs | EIR method; foreign exchange gains/losses in P&L | ECL (3-stage model) |
+| FVOCI — debt | Fair value + transaction costs | Fair value; changes in OCI; EIR, FX, and impairment in P&L | ECL in P&L; OCI balance is cumulative FV change less P&L items |
+| FVTPL | Fair value (transaction costs expensed) | Fair value; all changes in P&L | No separate impairment |
+| FVOCI — equity (irrevocable election) | Fair value + transaction costs | Fair value; changes in OCI (never recycled); dividends in P&L | No separate impairment |
+
+#### Financial Liabilities — Classification
+
+- **Default:** Amortised cost using EIR method
+- **FVTPL (mandatory):** Held for trading (including derivatives that are liabilities); contingent consideration in a business combination (IFRS 3)
+- **FVTPL (designated — Fair Value Option):** Permitted if: eliminates or significantly reduces accounting mismatch; financial liability is part of a group managed on a FV basis with a documented strategy; hybrid instrument with embedded derivative
+  - **Own credit risk:** For FVO liabilities, changes in fair value attributable to the entity's own credit risk are presented in OCI (not P&L), unless this creates or enlarges an accounting mismatch — then all changes remain in P&L
+- **Financial guarantee contracts:** Measured at higher of: (a) ECL amount under IAS 37 principles and (b) amount initially recognised less cumulative amortisation
+- **Embedded derivatives:** Only separate from a host financial liability that is not measured at FVTPL if: (a) economic characteristics not closely related to host; (b) a separate instrument with the same terms would be a derivative; (c) host is not measured at FVTPL. For financial asset hosts — the whole instrument is assessed for SPPI; if fails SPPI it is FVTPL in its entirety.
+
+---
+
+### Part B: Impairment — Expected Credit Loss (ECL) Model
+
+**Scope of ECL:** Applies to financial assets at amortised cost, financial assets at FVOCI (debt), lease receivables (IFRS 16), contract assets (IFRS 15), loan commitments not at FVTPL, and financial guarantee contracts.
+
+#### The 3-Stage ECL Model
+
+**Stage 1 — Performing (12-month ECL):**
+- Apply to financial instruments where credit risk has **not significantly increased** since initial recognition (or where credit risk is low at reporting date)
+- Recognise a loss allowance equal to **12-month ECL** — the portion of lifetime ECL from default events expected within 12 months of the reporting date
+- Interest revenue: calculated on **gross carrying amount** (i.e., before deducting the loss allowance) using the EIR
+
+**Stage 2 — Underperforming (Lifetime ECL — not credit-impaired):**
+- Apply when credit risk has **significantly increased** since initial recognition but the asset is **not yet credit-impaired**
+- Recognise **lifetime ECL** — expected credit losses from all possible default events over the expected life of the instrument
+- Interest revenue: still calculated on **gross carrying amount**
+- **Significant increase in credit risk (SICR):** Assessed based on change in risk of default (not change in loss given default or exposure):
+  - Quantitative: change in PD (probability of default) — compare current lifetime PD to lifetime PD at origination
+  - Qualitative indicators: significant deterioration in external credit ratings, past-due status (30 days past due = rebuttable presumption of SICR), watchlist, covenant breach, forbearance
+  - Forward-looking information must be incorporated
+  - **Low credit risk simplification:** If credit risk is low at the reporting date (e.g., investment-grade equivalent), entity may assume no SICR — remains in Stage 1
+
+**Stage 3 — Credit-impaired (Lifetime ECL — credit-impaired):**
+- Apply when the financial asset is **credit-impaired** — one or more events have had a detrimental impact on estimated future cash flows
+- **Credit impairment indicators (objective evidence of impairment):**
+  - Significant financial difficulty of issuer or borrower
+  - Breach of contract (default or delinquency in interest/principal payments)
+  - Lender granting a concession that would not otherwise be considered (forbearance/restructuring)
+  - Probability that borrower will enter bankruptcy or financial reorganisation
+  - Disappearance of an active market for the financial asset
+  - Purchase or origination at a deep discount that reflects incurred credit losses (POCI)
+- Recognise **lifetime ECL**
+- Interest revenue: calculated on **net carrying amount** (gross carrying amount less loss allowance) using the EIR — net interest approach
+
+**POCI (Purchased or Originated Credit-Impaired) Assets:**
+- Credit-impaired at initial recognition
+- Interest revenue calculated using a credit-adjusted EIR applied to the amortised cost (net of allowance)
+- Only cumulative changes in lifetime ECL since initial recognition are recognised as a loss allowance (changes can be positive — loss allowance gain)
+- Never migrates to Stage 1 or 2
+
+#### ECL Measurement — Key Inputs
+
+- **PD (Probability of Default):** Probability of default over the measurement horizon
+- **LGD (Loss Given Default):** 1 minus the recovery rate; reflects collateral, security, and seniority
+- **EAD (Exposure at Default):** Contractual cash flows outstanding at the time of default, including expected drawdowns on undrawn commitments
+- **ECL = PD × LGD × EAD** (simplified; discounted at the original EIR or credit-adjusted EIR for POCI)
+- **Forward-looking information:** ECL must reflect unbiased, probability-weighted information about past events, current conditions, and forecasts of future economic conditions. Entities must consider multiple economic scenarios; point-in-time PDs (not through-the-cycle)
+- **Write-offs:** When there is no reasonable expectation of recovery; reduce gross carrying amount; may still pursue enforcement activity
+- **Simplified approach (trade receivables, contract assets, lease receivables):**
+  - Trade receivables and contract assets without a significant financing component: must use lifetime ECL from day 1 (no staging); typically implemented using a provision matrix
+  - Trade receivables with a significant financing component, contract assets, and lease receivables: entity may elect to apply lifetime ECL from day 1 (optional simplification)
+
+#### Interaction with Modification / Restructuring
+
+- A modification that does not result in derecognition: recalculate gross carrying amount using modified cash flows discounted at original EIR; recognise modification gain/loss in P&L; reassess staging based on modified terms (30-day past due clock may reset; delinquency history used for SICR assessment continues)
+- A modification resulting in derecognition: new financial asset recognised; if credit-impaired at origination, POCI treatment applies
+
+---
+
+### Part C: Hedge Accounting
+
+**Overview:** Hedge accounting is a voluntary election that aligns the timing of gain/loss recognition in P&L for a hedging instrument with the hedged item. IFRS 9 hedge accounting more closely reflects risk management activities than IAS 39. Entities may also irrevocably elect to continue using IAS 39 hedge accounting (subject to removal on adoption of the IASB's macro hedge accounting project, when completed).
+
+#### Qualifying Criteria (all must be met)
+
+1. The hedging relationship consists only of eligible hedging instruments and eligible hedged items
+2. Formal designation and documentation of the hedging relationship at inception: entity's risk management objective and strategy, type of hedge, identification of hedging instrument and hedged item, the hedged risk, and how effectiveness will be assessed
+3. The hedging relationship meets all of the following effectiveness requirements:
+   - Economic relationship exists between the hedging instrument and hedged item (both respond to the same risk)
+   - Credit risk does not dominate the value changes from the economic relationship
+   - The hedge ratio reflects the actual quantities used for risk management (not set to achieve an accounting outcome)
+
+#### Eligible Hedging Instruments
+
+- Derivatives measured at FVTPL (the most common)
+- Non-derivative financial assets or liabilities at FVTPL, but only for currency risk hedges
+- A proportion (not a time component alone) of a derivative may be designated
+- Options: can designate intrinsic value only (time value excluded from designation and deferred in OCI as "cost of hedging") — avoids P&L volatility from time value decay; similarly, forward element of forward contracts and currency basis spread may be excluded
+
+#### Eligible Hedged Items
+
+- A recognised asset or liability
+- An unrecognised firm commitment (except for foreign currency risk)
+- A highly probable forecast transaction
+- A net investment in a foreign operation (IAS 21)
+- An aggregated exposure (a hedged item combined with a derivative)
+- A group of items (if individually eligible); a net position may be designated only for foreign currency risk (with certain conditions)
+- Portions: a risk component (if separately identifiable and reliably measurable), a nominal portion, a layer component of a hedged item
+
+#### Types of Hedge Relationships
+
+**Fair Value Hedge:**
+- Hedges exposure to changes in fair value of a recognised asset/liability or firm commitment attributable to a particular risk
+- **Accounting:** Changes in fair value of the hedging instrument are recognised in P&L; the carrying amount of the hedged item is adjusted for the gain/loss attributable to the hedged risk (fair value hedge adjustment) and that adjustment also recognised in P&L
+- When the hedge is discontinued, any remaining fair value hedge adjustment on the hedged item (if it is a financial instrument at amortised cost) is amortised to P&L over the remaining life using the EIR
+
+**Cash Flow Hedge:**
+- Hedges exposure to variability in cash flows attributable to a particular risk associated with a recognised asset/liability or highly probable forecast transaction
+- **Accounting:**
+  - The effective portion of the gain/loss on the hedging instrument is recognised in OCI (the cash flow hedge reserve — CFHR)
+  - The ineffective portion is recognised immediately in P&L
+  - When the hedged forecast transaction occurs and affects P&L: reclassify the CFHR to P&L (recycling)
+  - If the hedged item results in the recognition of a non-financial asset or liability: either reclassify when the asset/liability affects P&L, or include in the initial cost of the non-financial asset/liability (basis adjustment — applicable only for non-financial items; irrevocable election at inception)
+  - If the forecast transaction is no longer expected to occur: reclassify CFHR to P&L immediately
+
+**Net Investment Hedge:**
+- Hedges the currency risk on a net investment in a foreign operation
+- **Accounting:** Effective portion of the hedging instrument's gain/loss recognised in OCI (translation reserve); reclassified to P&L only on disposal or partial disposal of the foreign operation
+- Can use monetary items (e.g., intercompany loans) or derivatives as hedging instruments; borrowing in the functional currency of the foreign operation also qualifies
+
+#### Hedge Effectiveness Assessment
+
+- Prospective: assess whether an economic relationship exists; done at inception and on an ongoing basis (at a minimum at each reporting date)
+- Hedge ratio: must be the same as used for risk management; rebalancing required if the ratio changes
+- Rebalancing: adjust quantities of hedging instrument or hedged item to restore required ratio; prior hedging relationship continues
+- Discontinuation: mandatory only when the qualifying criteria are no longer met (in whole or in part); voluntary discontinuation is prohibited under IFRS 9 (unlike IAS 39)
+
+#### IFRIC Interpretations Relevant to IFRS 9
+
+- **IFRIC 16 — Hedges of a Net Investment in a Foreign Operation:** Clarifies (1) the nature of hedged risk (functional currency of subsidiary vs. presentation currency of parent); (2) which entity in a group can hold the hedging instrument; (3) how to determine amounts reclassified to P&L on disposal
+- **IFRIC 19 — Extinguishing Financial Liabilities with Equity Instruments:** When equity instruments are issued to a creditor to extinguish a financial liability, the difference between carrying amount of liability extinguished and fair value of equity issued is recognised in P&L
+- **IFRIC 10 — Interim Financial Reporting and Impairment:** Prohibits reversal of impairment losses on goodwill (and certain investments) recognised in an interim period; less relevant post-IFRS 9 ECL model but noted for completeness
+
+---
+
+**Disclosure requirements:**
+- See IFRS 7 above — IFRS 7 contains all disclosure requirements for IFRS 9 instruments
+- Specifically for IFRS 9 impairment: ECL methodology, assumptions, and inputs; staging movement tables; write-off and recovery policies; forward-looking information used
+- Specifically for hedge accounting: see IFRS 7 hedge accounting disclosure requirements above
+
+**Common pitfalls:**
+- **Classification:** Applying SPPI at entity level rather than instrument level; failing to assess modified time value of money features; incorrectly treating equity investments as debt (e.g., preference shares with mandatory redemption)
+- **Business model:** Using the wrong level of aggregation; changing classification based on a single sale rather than a genuine business model change; confusing intent (SPPI concern) with business model
+- **ECL — SICR:** Using only backward-looking or lagging indicators; failing to incorporate macroeconomic forecasts; mechanically applying the 30-day presumption without considering lead indicators
+- **ECL — forward-looking:** Single-scenario ECL that ignores non-linearity; using through-the-cycle PDs rather than point-in-time
+- **ECL — staging:** Moving assets back to Stage 1 too quickly after cure; insufficient cure period evidence
+- **ECL — provision matrix:** Using industry-average loss rates without adjustment for entity-specific and forward-looking factors
+- **Hedge accounting — designation:** Hedging the benchmark rate component without meeting the separately identifiable and reliably measurable criteria; designating a net position for non-FX risks
+- **Hedge accounting — discontinuation:** Voluntarily discontinuing to manage volatility (prohibited under IFRS 9)
+- **Own credit risk on FVO liabilities:** Forgetting to present the own credit adjustment in OCI rather than P&L
+- **Derecognition:** Failing to properly analyse pass-through arrangements and retained risks/rewards; partial derecognition errors in transfers
+
+**Related standards:** IFRS 7 (all disclosures for financial instruments), IFRS 13 (fair value measurement), IFRS 15 (contract assets within ECL scope), IFRS 16 (lease receivables within ECL scope), IFRS 17 (insurance contracts — interaction with financial guarantee contracts), IAS 12 (deferred tax on fair value movements in OCI for FVOCI instruments), IAS 21 (foreign currency — interaction with hedge accounting and FVOCI), IAS 28 (equity method investments — SPPI not applicable), IAS 32 (classification of instruments as equity or liability — prerequisite for IFRS 9), IAS 39 (predecessor standard; still applicable for macro hedging under the IAS 39 election), IFRIC 16 (net investment hedge), IFRIC 19 (extinguishing liabilities with equity)
+
+---
+
+*End of IFRS 1–9 Reference. Last updated: March 2026.*
