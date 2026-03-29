@@ -437,3 +437,547 @@ Search for the specific standard number (e.g., "IFRS 15" or "IAS 36") rather tha
 **Related standards:** IFRS 9 (Financial Instruments — assets backing insurance), IFRS 13 (Fair Value — underlying items in VFA), IFRS 7 (Financial Instruments Disclosures — financial risk), IAS 37 (Provisions — excluded from IFRS 17 scope), IFRS 3 (Business Combinations — insurance contract assets/liabilities acquired), IFRS 4 (superseded)
 
 ---
+> Active standards only. Superseded standards (IAS 11, 14, 15, 17, 18) are excluded.
+
+---
+
+## IAS 1 — Presentation of Financial Statements
+
+**Scope:** Applies to all general purpose financial statements prepared in accordance with IFRS. Does not apply to condensed interim financial statements prepared under IAS 34, though IAS 34 builds upon its principles.
+
+**Core principle:** Financial statements must present fairly the financial position, financial performance, and cash flows of an entity. Fair presentation requires faithful representation of the effects of transactions and events in accordance with the definitions and recognition criteria in the Conceptual Framework.
+
+**Key rules:**
+- **Complete set of financial statements** — must include:
+  - Statement of financial position (balance sheet)
+  - Statement of profit or loss and other comprehensive income (single or two-statement approach)
+  - Statement of changes in equity
+  - Statement of cash flows
+  - Notes (including a summary of material accounting policies)
+  - Comparative statement of financial position when an entity restates prior periods or reclassifies items
+- **Going concern** — management must assess the entity's ability to continue as a going concern. If material uncertainties exist, they must be disclosed. If not a going concern, that basis must be used and disclosed.
+- **Accrual basis** — all financial statements except the cash flow statement must be prepared on an accrual basis.
+- **Materiality and aggregation** — each material class of similar items must be presented separately. Immaterial items may be aggregated.
+- **Offsetting** — assets and liabilities, income and expenses, shall not be offset unless required or permitted by an IFRS.
+- **Frequency of reporting** — at least annually. If the reporting period changes, disclose the reason and that comparatives are not fully comparable.
+- **Comparative information** — minimum of one prior period comparative for all amounts in the current period financial statements.
+- **Consistency of presentation** — presentation and classification of items shall be retained from one period to the next unless a change is justified.
+- **Other comprehensive income (OCI)** — items must be classified by whether they will or will not be subsequently reclassified to profit or loss. Tax effects must be allocated to OCI items.
+- **Current/non-current distinction** — entities present current and non-current assets/liabilities separately unless a liquidity presentation provides more reliable information.
+  - An asset is current if expected to be realised within 12 months or the operating cycle, held for trading, or is cash/cash equivalent.
+  - A liability is current if due within 12 months, there is no unconditional right to defer settlement, or it is held for trading.
+  - Breach of loan covenants: if a breach occurs by period end and the lender has not agreed by period end to waive the right to demand repayment, the liability is current.
+
+**Disclosure requirements:**
+- Identification of the financial statements (entity name, whether consolidated/separate, reporting date, presentation currency, level of rounding)
+- Accounting policies that are material to understanding the financial statements
+- Judgements made in applying accounting policies that have the most significant effect on amounts recognised
+- Key sources of estimation uncertainty — assumptions about the future that have a significant risk of causing a material adjustment within the next year
+- Information about capital management (qualitative and quantitative)
+- Dividends proposed or declared after the reporting period (and per share amount)
+- Restatements: nature, amount of corrections, and effect on earnings per share
+
+**Common pitfalls:**
+- Failing to distinguish between material judgements (IAS 1 para 122) and estimation uncertainty (para 125) — they require separate disclosures
+- Classifying a breach-of-covenant liability as non-current when the waiver was obtained after period end
+- Presenting a single OCI line without splitting items that will vs. will not be reclassified
+- Boilerplate accounting policy disclosures that do not reflect the entity's actual circumstances
+- Omitting the third balance sheet when a restatement or reclassification has occurred
+
+**Related standards:** IAS 7 (cash flows), IAS 8 (accounting policies, errors), IAS 10 (events after reporting period), IAS 34 (interim reporting), IFRS 7 (financial instrument disclosures), IFRS 13 (fair value hierarchy disclosures), IAS 33 (EPS)
+
+---
+
+## IAS 2 — Inventories
+
+**Scope:** Applies to all inventories except: work in progress under construction contracts (IFRS 15), financial instruments (IFRS 9), biological assets and agricultural produce at point of harvest (IAS 41), and commodity broker-traders who measure inventories at fair value less costs to sell.
+
+**Core principle:** Inventories shall be measured at the lower of cost and net realisable value (NRV). Cost comprises all costs of purchase, costs of conversion, and other costs incurred to bring the inventories to their present location and condition.
+
+**Key rules:**
+- **Cost of inventories:**
+  - *Costs of purchase* — purchase price plus import duties, transport, handling, and other directly attributable costs, less trade discounts and rebates
+  - *Costs of conversion* — direct labour and a systematic allocation of fixed and variable production overheads
+  - *Fixed overhead allocation* — based on normal capacity (not actual production); abnormal idle capacity costs are expensed as incurred
+  - *Excluded costs* — abnormal waste, storage costs (unless necessary before a further production stage), administrative overheads unrelated to production, selling costs, and borrowing costs (unless IAS 23 applies)
+- **Cost formulas (methods):**
+  - Specific identification — for items not ordinarily interchangeable and goods produced for specific projects
+  - First-In First-Out (FIFO) — permitted
+  - Weighted average cost (WAC) — permitted (can be periodic or moving average)
+  - **LIFO is explicitly prohibited under IFRS**
+  - The same cost formula must be used for all inventories of similar nature and use; different formulas may be used for different categories
+- **Net realisable value (NRV):**
+  - Estimated selling price in the ordinary course of business, less estimated costs of completion and estimated selling costs
+  - NRV write-downs are assessed item-by-item (or by groups of similar items); not by broad category or total inventory
+  - Written-down value is reassessed each subsequent period; reversals are permitted up to the original write-down amount
+- **Recognition as expense:** The carrying amount of inventories sold is recognised as cost of goods sold in the period in which the related revenue is recognised.
+
+**Disclosure requirements:**
+- Accounting policies adopted for measuring inventories, including the cost formula used
+- Total carrying amount of inventories and carrying amount by classification (raw materials, WIP, finished goods, etc.)
+- Carrying amount of inventories carried at fair value less costs to sell
+- Amount of inventories recognised as an expense during the period
+- Amount of any write-down to NRV and circumstances/events leading to the write-down
+- Amount of any reversal of a write-down and the circumstances causing the reversal
+- Carrying amount of inventories pledged as security
+
+**Common pitfalls:**
+- Using LIFO (explicitly prohibited under IFRS; common US GAAP divergence)
+- Allocating fixed overheads based on actual production rather than normal capacity, overstating inventory in low-production periods
+- Including selling and distribution costs in inventory cost
+- Performing NRV testing at a portfolio or total-inventory level rather than item-by-item or similar-group level
+- Failing to reverse NRV write-downs when selling prices subsequently recover
+- Omitting or incorrectly capitalising borrowing costs per IAS 23 for qualifying inventory
+
+**Related standards:** IAS 23 (borrowing costs for qualifying inventory), IFRS 15 (contract costs and work in progress), IAS 41 (agricultural produce pre-harvest), IFRS 13 (fair value measurement for broker-trader exception)
+
+---
+
+## IAS 7 — Statement of Cash Flows
+
+**Scope:** Applies to all entities that prepare financial statements in accordance with IFRS. Requires a statement of cash flows as an integral part of the financial statements for every period for which financial statements are presented.
+
+**Core principle:** The statement of cash flows provides information about an entity's historical changes in cash and cash equivalents, classified by operating, investing, and financing activities. This enables users to assess the entity's ability to generate cash and its liquidity needs.
+
+**Key rules:**
+- **Cash and cash equivalents:**
+  - Cash: cash on hand and demand deposits
+  - Cash equivalents: short-term, highly liquid investments readily convertible to known amounts of cash, with an insignificant risk of changes in value (typically original maturity of three months or less)
+  - Bank overdrafts repayable on demand that form an integral part of cash management are included as a component of cash and cash equivalents
+- **Classification of activities:**
+  - *Operating activities* — principal revenue-producing activities and other activities that are not investing or financing. Cash generated from operations adjusted for working capital movements; tax paid is generally classified as operating unless specifically identified with financing or investing
+  - *Investing activities* — acquisition and disposal of long-term assets and other investments not included in cash equivalents (e.g., PPE purchases, business acquisitions/disposals, loans made and repaid, purchase/sale of investments)
+  - *Financing activities* — activities that result in changes in the size and composition of equity and borrowings (e.g., proceeds from issuing shares, proceeds from borrowings, repayment of borrowings, payment of lease liabilities, dividends paid)
+- **Reporting methods for operating cash flows:**
+  - *Direct method* — discloses major classes of gross cash receipts and payments. Encouraged by IAS 7
+  - *Indirect method* — reconciles profit or loss to net cash from operating activities by adjusting for non-cash items, changes in working capital, and items classified as investing/financing. Permitted and widely used in practice
+- **Interest and dividends** — classification is an accounting policy choice that must be applied consistently:
+  - Interest paid: operating or financing
+  - Interest received: operating or investing
+  - Dividends paid: financing or operating
+  - Dividends received: investing or operating
+- **Taxes on income** — generally classified as operating unless specifically identifiable with financing or investing
+- **Foreign currency cash flows** — translated at the exchange rate at the date of the cash flow (or average rate as approximation). Effect of exchange rate changes on cash held in foreign currencies is presented separately as a reconciling item
+- **Non-cash transactions** — excluded from the cash flow statement but disclosed elsewhere in the notes (e.g., acquiring an asset via finance lease, converting debt to equity, acquiring assets by assuming liabilities)
+- **Gross vs. net presentation:**
+  - Generally gross presentation required
+  - Net presentation permitted for: cash receipts and payments on behalf of customers, and cash receipts and payments for items where turnover is quick, amounts are large, and maturities are short (e.g., credit card principal)
+- **Reconciliation** — the closing balance of cash and cash equivalents in the statement of cash flows must reconcile to the balance sheet
+
+**Disclosure requirements:**
+- Components of cash and cash equivalents and a reconciliation to the balance sheet
+- Accounting policies for determining cash and cash equivalents
+- Significant non-cash transactions
+- Separate disclosure of cash flows from acquisition and disposal of subsidiaries (investing section)
+- Cash and cash equivalents not available for use by the group (e.g., restricted cash held by a subsidiary with exchange controls) and the amount and reasons
+- Interest and dividends received/paid (with classification policy)
+- Segment cash flow information (encouraged but not required)
+- Undrawn borrowing facilities
+
+**Common pitfalls:**
+- Classifying bank overdrafts as financing rather than as a component of cash and cash equivalents (when part of cash management)
+- Presenting investing/financing cash flows on a net basis when gross presentation is required
+- Incorrect classification of interest and dividends (particularly when the entity has not established a clear accounting policy)
+- Including non-cash transactions in the statement (e.g., right-of-use assets on initial recognition of a lease)
+- Failing to disclose restricted cash separately and the resulting reconciliation break
+- Treating proceeds from sale of financial assets (held for investment) as operating rather than investing
+
+**Related standards:** IAS 1 (financial statement presentation), IAS 21 (foreign currency translation of cash flows), IFRS 16 (lease liability payments in financing activities), IFRS 3 (cash flows from business combinations)
+
+---
+
+## IAS 8 — Accounting Policies, Changes in Accounting Estimates and Errors
+
+**Scope:** Applies to the selection and application of accounting policies and the accounting for changes in accounting policies, changes in accounting estimates, and corrections of prior period errors. Does not address accounting for income taxes arising from corrections of errors or changes in accounting policies (see IAS 12).
+
+**Core principle:** Accounting policies shall be selected and applied consistently. Changes in accounting policy, changes in accounting estimates, and corrections of material prior period errors each have specific and distinct accounting treatments.
+
+**Key rules:**
+- **Selection of accounting policies:**
+  - When an IFRS specifically applies, follow that standard
+  - When no specific IFRS applies, management uses judgement to develop a policy that is relevant and reliable, considering in order: (1) requirements of IFRS dealing with similar/related issues, (2) the IASB Conceptual Framework
+  - May also consider pronouncements of other standard-setting bodies that use a similar framework, other accounting literature, and accepted industry practices
+- **Changes in accounting policy:**
+  - Permitted only if required by an IFRS, or if the change results in the financial statements providing more reliable and relevant information
+  - **Retrospective application** — restate all prior periods presented as if the new policy had always been applied; adjust the opening balance of equity of the earliest period presented
+  - If retrospective application is impracticable for a specific prior period, apply the new policy from the beginning of the earliest period for which retrospective application is practicable
+  - Changes resulting from initial application of a new IFRS are accounted for per the transitional provisions of that IFRS (which may specify prospective or modified retrospective)
+- **Changes in accounting estimates:**
+  - A change in estimate results from new information or new developments, not from correcting errors
+  - **Prospective application** — recognise the effect in profit or loss in the current period and future periods affected
+  - Examples: useful lives and residual values of assets, allowance for expected credit losses, warranty provisions, fair value measurements
+  - If the distinction between a policy change and an estimate change is difficult, treat it as a change in estimate
+- **Prior period errors:**
+  - Omissions or misstatements arising from failure to use, or misuse of, reliable information
+  - **Retrospective restatement** — correct by restating comparative amounts for prior periods presented, and restating the opening balance of assets, liabilities, and equity for the earliest prior period presented
+  - If impracticable, restate from the earliest practicable period
+  - Material errors must be corrected retrospectively; immaterial errors may be corrected prospectively
+- **Impracticability** — applying a requirement is impracticable when the entity cannot apply it after making every reasonable effort to do so (e.g., data not available, significant estimation required that cannot be reliably made)
+
+**Disclosure requirements:**
+- **Change in accounting policy:**
+  - Title of the standard, nature and reason for change
+  - Amount of adjustment for current and each prior period presented (and beyond if practicable)
+  - Amount of adjustment relating to periods before those presented
+  - If retrospective application is impracticable, description of circumstances and how change was applied
+- **Change in accounting estimate:**
+  - Nature and amount of the change with effect on current period
+  - If future periods are affected, the expected effect (or a statement that it is impracticable to estimate)
+- **Prior period errors:**
+  - Nature of the error
+  - Amount of correction for each prior period presented (and beyond if practicable)
+  - Correction to the opening balance of the earliest prior period presented
+  - If restatement is impracticable, description of circumstances
+
+**Common pitfalls:**
+- Misclassifying a change in accounting estimate as a change in accounting policy (or vice versa), leading to incorrect retrospective vs. prospective treatment
+- Applying new IFRS standards using full retrospective restatement when the transitional provisions specify modified retrospective (no restatement of comparatives)
+- Correcting immaterial current-year errors through restatement when prospective correction is sufficient
+- Failing to adjust the opening equity of the earliest comparative period when restating errors
+- Voluntary changes in accounting policy without documenting that the change provides more reliable and relevant information
+- Disclosing only current-year impact without providing the per-period impact table required by IAS 8
+
+**Related standards:** IAS 1 (presentation), IAS 12 (tax effects of corrections and policy changes), IAS 16 (change in depreciation method treated as change in estimate), IAS 37 (revision of provisions treated as change in estimate), all IFRS transitional provisions
+
+---
+
+## IAS 10 — Events after the Reporting Period
+
+**Scope:** Applies to the accounting for, and disclosure of, events — both favourable and unfavourable — that occur between the end of the reporting period and the date on which the financial statements are authorised for issue. Does not address events already reflected in the financial statements or addressed by other standards (e.g., discontinued operations under IFRS 5).
+
+**Core principle:** Events after the reporting period are classified as either adjusting or non-adjusting. Adjusting events provide evidence of conditions existing at the end of the reporting period and require changes to the financial statements. Non-adjusting events are indicative of conditions that arose after the reporting period and are disclosed but do not change recognised amounts.
+
+**Key rules:**
+- **Adjusting events (adjust the financial statements):**
+  - Settlement after the reporting period of a court case that confirms a liability existing at the end of the reporting period
+  - Receipt of information after the reporting period indicating that an asset was impaired at period end (e.g., bankruptcy of a customer after period end confirming a loss already incurred; sale of inventory after period end at below carrying amount indicating NRV was below cost at period end)
+  - Discovery of fraud or errors showing the financial statements were incorrect
+  - Determination after period end of the purchase price or proceeds from sale of assets bought/sold before period end
+- **Non-adjusting events (disclose only, do not adjust):**
+  - Decline in market value of investments after period end (reflects conditions after period end)
+  - Major business combination or disposal after period end
+  - Announcement of a plan to discontinue an operation
+  - Major purchases/disposals of assets or their expropriation
+  - Destruction of a major production plant by fire after period end
+  - Announcement or commencement of a major restructuring
+  - Major ordinary share transactions and potential ordinary share transactions after period end
+  - Abnormally large changes in asset prices or foreign exchange rates after period end
+  - Changes in tax rates or tax laws enacted after period end
+  - Entering into significant commitments or contingent liabilities
+- **Dividends:**
+  - Dividends declared after the reporting period but before the financial statements are authorised for issue are **non-adjusting** — no liability is recognised at period end. They are disclosed in the notes
+- **Going concern:**
+  - If management determines after the reporting period that it intends to liquidate the entity or cease trading, or has no realistic alternative but to do so, the going concern basis is inappropriate even if the event occurs after period end — the financial statements must be revised accordingly
+- **Date of authorisation for issue:**
+  - Must be disclosed; this is the date the financial statements are approved by the board (or equivalent)
+  - If the entity's owners or others have the power to amend the financial statements after issue, that does not change the authorisation date
+
+**Disclosure requirements:**
+- The date when the financial statements were authorised for issue and who gave that authorisation
+- For each material category of non-adjusting event:
+  - Nature of the event
+  - Estimate of its financial effect, or a statement that such an estimate cannot be made
+- Update of disclosures relating to conditions at period end when new information is received after period end
+
+**Common pitfalls:**
+- Treating a post-balance sheet event as adjusting when it reflects new conditions rather than confirming conditions at period end (e.g., treating a decline in listed share price as adjusting)
+- Recognising dividends declared after period end as a liability at period end
+- Failing to identify or disclose the authorisation date
+- Overlooking going concern events that arise between period end and authorisation
+- Confusion between the "reporting period" (year-end) and the "authorisation date" — the window between these two dates is where IAS 10 applies
+
+**Related standards:** IAS 1 (going concern, authorisation date for comparative third balance sheet), IAS 37 (provisions for conditions existing at period end), IAS 36 (impairment evidence arising after period end), IFRS 5 (discontinued operations)
+
+---
+
+## IAS 12 — Income Taxes
+
+**Scope:** Applies to the accounting for income taxes, including all domestic and foreign taxes based on taxable profits, and withholding taxes payable by subsidiaries on distributions to the parent. Does not apply to government grants (IAS 20) or investment tax credits, except by analogy where appropriate. IFRIC 23 supplements IAS 12 for uncertain tax treatments.
+
+**Core principle:** Current and deferred tax are recognised as income or expense in profit or loss, except to the extent that the tax arises from a transaction recognised in OCI or directly in equity, in which case the tax is also recognised in OCI or equity respectively. Deferred tax reflects the future tax consequences of recovering or settling the carrying amounts of assets and liabilities.
+
+**Key rules:**
+- **Current tax:**
+  - The amount of income tax payable (recoverable) in respect of taxable profit (loss) for the current and prior periods
+  - Measured using enacted or substantively enacted tax rates at the balance sheet date
+  - Recognised as a liability (or asset if tax paid exceeds tax due)
+- **Temporary differences:**
+  - Differences between the carrying amount of an asset or liability in the balance sheet and its tax base
+  - *Taxable temporary differences* — give rise to deferred tax liabilities (DTLs): taxable amounts in future periods
+  - *Deductible temporary differences* — give rise to deferred tax assets (DTAs): deductible amounts in future periods
+- **Deferred tax liabilities (DTLs):**
+  - Recognised for all taxable temporary differences except:
+    - Initial recognition of goodwill
+    - Initial recognition of an asset or liability in a transaction that is not a business combination and, at the time of the transaction, affects neither accounting profit nor taxable profit (the "initial recognition exemption")
+    - Taxable temporary differences arising on investments in subsidiaries, associates, and joint ventures where the parent/investor controls the timing of reversal and it is probable the difference will not reverse in the foreseeable future
+- **Deferred tax assets (DTAs):**
+  - Recognised for all deductible temporary differences to the extent that it is probable that taxable profit will be available against which the deductible temporary difference can be utilised
+  - Also recognised for unused tax losses and tax credits carried forward, to the extent probable that future taxable profit will be available
+  - The assessment of "probable" requires judgement and must be reviewed at each balance sheet date
+  - Unrecognised DTAs reassessed at each period end
+- **Measurement of deferred tax:**
+  - Measured at the tax rates expected to apply in the period the asset is realised or the liability settled, based on enacted or substantively enacted rates at the balance sheet date
+  - The rate used depends on the *expected manner of recovery/settlement* (e.g., use vs. sale of an asset may attract different rates)
+  - Deferred tax is **not discounted**
+- **Offsetting:**
+  - Current tax assets and liabilities may be offset only when there is a legally enforceable right to offset and the entity intends to settle on a net basis or simultaneously
+  - Deferred tax assets and liabilities may be offset only when: (a) there is a legally enforceable right to offset current tax assets against current tax liabilities, and (b) they relate to income taxes levied by the same taxing authority on the same taxable entity (or different entities that intend to settle/recover on a net basis)
+- **Tax on OCI and equity items:**
+  - Deferred and current tax arising from items recognised in OCI (e.g., revaluation of PPE, remeasurements of defined benefit plans) is recognised in OCI
+  - Tax on equity transactions (e.g., equity-settled share-based payments) is recognised in equity
+- **IFRIC 23 — Uncertainty over Income Tax Treatments:**
+  - Applies when there is uncertainty about whether a tax treatment will be accepted by the tax authority
+  - An uncertain tax position must be reflected in the measurement of current and deferred tax if it is not probable that the tax authority will accept the treatment
+  - The entity assumes the tax authority will examine the positions and has full knowledge of all relevant information
+  - Measurement: either the most likely amount or the expected value (probability-weighted), whichever better predicts the resolution
+  - Reassess judgements whenever facts or circumstances change or new information becomes available
+
+**Disclosure requirements:**
+- Current and deferred tax recognised in profit or loss, OCI, and equity
+- Tax relating to discontinued operations separately
+- Numerical reconciliation between tax expense and the product of accounting profit multiplied by the applicable tax rate (either using the domestic rate or a weighted average)
+- Explanation of changes in tax rates
+- Amount of deductible temporary differences, unused tax losses, and unused tax credits for which no DTA is recognised, and expiry dates
+- Amount of DTA recognised and evidence supporting recognition when utilisation depends on future taxable profits in excess of existing taxable temporary differences
+- Nature and amount of each type of temporary difference and unused loss/credit (if DTL or DTA is significant)
+- Deferred tax relating to investments in subsidiaries/associates/JVs where no DTL is recognised
+- Tax consequences of dividends proposed or declared
+- Uncertain tax positions recognised (per IFRIC 23): judgements made, key assumptions, potential changes
+
+**Common pitfalls:**
+- Recognising a DTA for tax losses without sufficient evidence of probable future taxable profits
+- Applying the wrong tax rate (e.g., using the enacted rate rather than the substantively enacted rate, or failing to consider the expected manner of recovery/settlement)
+- Incorrectly applying the initial recognition exemption to subsequent changes in temporary differences (it applies only at initial recognition)
+- Recognising a DTL on goodwill (explicitly prohibited)
+- Failing to recognise tax on OCI items separately from tax in profit or loss
+- Omitting IFRIC 23 disclosures for uncertain positions
+- Discounting deferred tax balances (prohibited under IAS 12)
+- Not reassessing previously unrecognised DTAs when circumstances improve
+
+**Related standards:** IAS 1 (presentation of tax on OCI), IAS 8 (tax effects of corrections and policy changes), IFRS 3 (deferred tax in business combinations), IAS 32/IFRS 9 (tax on equity components), IFRIC 23 (uncertain tax treatments)
+
+---
+
+## IAS 16 — Property, Plant and Equipment
+
+**Scope:** Applies to all property, plant and equipment (PPE) unless another standard requires or permits a different treatment. Excludes: biological assets (IAS 41), mineral rights and reserves (IFRS 6), and investment property (IAS 40) — though IAS 16 applies to PPE used to develop or maintain assets in those categories. Also excludes assets classified as held for sale (IFRS 5).
+
+**Core principle:** The cost of an item of PPE shall be recognised as an asset if, and only if, it is probable that future economic benefits will flow to the entity and the cost can be measured reliably. Subsequently, the entity may use either the cost model or the revaluation model as its accounting policy for each class of PPE.
+
+**Key rules:**
+- **Initial recognition and measurement at cost:**
+  - Purchase price, including import duties and non-refundable taxes, less trade discounts
+  - Directly attributable costs: site preparation, delivery, installation, professional fees, estimated costs of dismantling and restoration (IAS 37 provision)
+  - Borrowing costs attributable to qualifying assets (IAS 23)
+  - Excludes: administration and general overhead, costs of opening a facility, costs of introducing a new product, costs of conducting business in a new location, and training costs
+  - If payment is deferred beyond normal credit terms, the cost is the cash price equivalent (difference is interest over the credit period)
+  - If acquired in exchange for a non-monetary asset: measured at fair value unless (a) the exchange lacks commercial substance or (b) fair value cannot be reliably measured — in those cases, use the carrying amount of the asset given up
+- **Component depreciation:**
+  - Each significant component of an item of PPE with a different useful life must be depreciated separately
+  - Example: an aircraft fuselage, engines, and interior fittings each have different useful lives and must be componentised
+  - Cost of replacing a component is recognised as an asset and the carrying amount of the replaced component derecognised
+- **Subsequent costs:**
+  - Included in the asset's cost only if they meet the recognition criteria (probable future economic benefits, reliable measurement)
+  - Day-to-day servicing costs ("repairs and maintenance") are expensed as incurred
+  - Major inspections (e.g., overhauls required by regulation) are capitalised and depreciated over the period to the next inspection; prior inspection costs derecognised
+- **Depreciation:**
+  - Depreciable amount (cost or revalued amount less residual value) allocated on a systematic basis over the useful life
+  - Begins when the asset is available for use; continues until derecognition or reclassification as held for sale (IFRS 5) — not when idle
+  - Residual value and useful life reviewed at least at each year end; changes are changes in accounting estimates (IAS 8)
+  - Depreciation method (straight-line, diminishing balance, units of production) shall reflect the pattern of consumption of economic benefits and be reviewed at least annually
+  - Land is not depreciated (indefinite useful life), but buildings are depreciated separately
+- **Cost model:** Carry at cost less accumulated depreciation and accumulated impairment losses
+- **Revaluation model:**
+  - An entire class of PPE must be revalued (cannot cherry-pick individual assets within a class)
+  - Revaluations must be kept sufficiently up to date (frequency depends on volatility of fair values)
+  - Revaluation surplus: increase credited to OCI and accumulated in equity (revaluation reserve)
+  - Decrease: first offsets any existing revaluation surplus for that asset; any excess is charged to profit or loss
+  - Revaluation increases that reverse prior decreases recognised in profit or loss are recognised in profit or loss up to the amount previously charged
+  - Accumulated depreciation at date of revaluation: either restated proportionally or eliminated against gross carrying amount (asset restated to revalued amount)
+  - Depreciation on a revalued asset: based on the revalued amount over the remaining useful life
+  - Transfer from revaluation reserve to retained earnings: either as the asset is used (excess depreciation) or on derecognition — not through profit or loss
+- **Derecognition:**
+  - Carrying amount derecognised on disposal or when no future economic benefits expected
+  - Gain or loss = net disposal proceeds minus carrying amount, recognised in profit or loss
+  - Gains are not classified as revenue
+- **Impairment:** Subject to IAS 36
+
+**Disclosure requirements:**
+- Measurement bases, depreciation methods, useful lives or depreciation rates
+- Gross carrying amount and accumulated depreciation (including impairment) at start and end of period
+- Reconciliation of carrying amounts (additions, disposals, depreciation, impairment, revaluations, transfers)
+- For revalued assets: effective date of revaluation, whether an independent valuer was involved, methods and assumptions, carrying amount if cost model had been used, revaluation surplus and changes therein
+- Contractual commitments for acquisition of PPE
+- PPE restricted as security for liabilities
+- Compensation received from third parties for impaired/lost assets
+
+**Common pitfalls:**
+- Failing to componentise significant parts with different useful lives
+- Revaluing selected assets within a class rather than the entire class
+- Not updating residual values and useful lives at least annually
+- Continuing to depreciate an asset after it meets the IFRS 5 held-for-sale criteria
+- Incorrectly capitalising costs that should be expensed (training, administrative overheads, launch costs)
+- Failing to derecognise the carrying amount of replaced components on major overhaul
+- Recognising gains on revaluation in profit or loss rather than OCI
+
+**Related standards:** IAS 23 (borrowing costs), IAS 36 (impairment), IAS 37 (decommissioning provisions), IFRS 5 (held for sale), IAS 40 (investment property — entity may use cost or fair value model), IFRS 16 (right-of-use assets), IFRS 13 (fair value for revaluations)
+
+---
+
+## IAS 19 — Employee Benefits
+
+**Scope:** Applies to all employee benefits except share-based payments (IFRS 2). Covers short-term employee benefits, post-employment benefits (defined contribution and defined benefit plans), other long-term employee benefits, and termination benefits.
+
+**Core principle:** An entity shall recognise a liability when an employee has provided service in exchange for employee benefits to be paid in the future, and an expense when the entity consumes the economic benefit arising from service provided by an employee in exchange for employee benefits.
+
+**Key rules:**
+- **Short-term employee benefits** (expected to be settled wholly within 12 months after the end of the annual reporting period in which the employee renders the service):
+  - Wages, salaries, social security contributions, paid annual leave, paid sick leave, profit-sharing and bonuses, non-monetary benefits
+  - Recognised as a liability (accrued expense) as service is rendered; undiscounted
+  - Accumulating paid absences (unused vacation carried forward): accrue as employees render service
+  - Non-accumulating paid absences: recognise when absences occur
+  - Profit-sharing/bonus: recognise only if there is a present legal or constructive obligation and the amount can be reliably estimated
+- **Post-employment benefits — Defined Contribution (DC) plans:**
+  - Entity's obligation is fixed: the contributions payable for the period
+  - Recognise the contribution as an expense when the employee has rendered service
+  - If contributions do not fall due within 12 months, they are discounted
+- **Post-employment benefits — Defined Benefit (DB) plans:**
+  - Entity's obligation is to provide the agreed benefits; the entity bears actuarial and investment risk
+  - **Net defined benefit liability (asset):** present value of the defined benefit obligation (DBO) less the fair value of plan assets
+  - *Defined benefit obligation (DBO):* present value of expected future payments attributed to employee service using the projected unit credit method; discounted using the yield on high quality corporate bonds (or government bonds where no deep market) with currency and term consistent with the obligation
+  - *Current service cost:* increase in the DBO resulting from employee service in the current period — recognised in profit or loss
+  - *Past service cost:* change in the DBO for employee service in prior periods resulting from a plan amendment or curtailment — recognised immediately in profit or loss (no longer deferred)
+  - *Net interest cost (income):* applying the discount rate to the net defined benefit liability (asset) at the start of the period — recognised in profit or loss
+  - **Remeasurements — recognised in OCI, never recycled to profit or loss:**
+    - Actuarial gains and losses: changes in the DBO from experience adjustments and changes in actuarial assumptions
+    - Return on plan assets excluding the amount included in net interest (actual return minus expected return at the discount rate)
+    - Changes in the effect of the asset ceiling (excluding interest)
+  - *Asset ceiling:* the net DB asset is limited to the present value of economic benefits available as refunds or reductions in future contributions; any excess is recognised as a reduction of the asset via OCI
+  - Multi-employer plans: treated as DC if insufficient information to use DB accounting; as DB otherwise
+- **Other long-term employee benefits** (e.g., long-service leave, jubilee awards, long-term disability):
+  - Similar to DB accounting but all changes (including remeasurements) are recognised in profit or loss — no OCI
+- **Termination benefits:**
+  - Recognised at the earlier of: (a) when the entity can no longer withdraw the offer, or (b) when restructuring costs are recognised (IAS 37)
+  - If expected to be settled more than 12 months after the reporting period, they are discounted
+
+**Disclosure requirements:**
+- Description of the plan, its risks, and entity's involvement in governance
+- Explanation of amounts in the financial statements (reconciliation of opening to closing DBO, plan assets, and net liability/asset)
+- The significant actuarial assumptions used (discount rate, salary growth, mortality, etc.) and sensitivity analysis showing how the DBO would change if each significant actuarial assumption changed by a reasonably possible amount
+- Description of plan assets and their fair value by major category; amounts included in plan assets for the entity's own financial instruments or assets it uses
+- Funding information: expected contributions to DB plans for the next annual period, weighted average duration of the DBO, maturity analysis of benefit payments
+- Multi-employer plan disclosures if classified as DC due to insufficient information
+- DC expense recognised in the period
+
+**Common pitfalls:**
+- Recognising actuarial gains and losses in profit or loss rather than OCI (the "corridor method" is no longer permitted under IAS 19 Revised 2011)
+- Deferring past service cost amortisation (no longer permitted; past service cost is now immediate)
+- Using an incorrect discount rate (e.g., using a government bond rate when a deep corporate bond market exists)
+- Failing to apply the asset ceiling test when the DB plan is in surplus
+- Confusing the "net interest" component (recognised in P&L) with the actual return on plan assets (split between net interest and remeasurement)
+- Inadequate sensitivity analysis disclosures
+
+**Related standards:** IAS 37 (termination benefits and restructuring), IFRS 2 (share-based payments), IAS 1 (presentation of OCI — remeasurements presented separately), IFRS 10/IAS 28 (group plan arrangements)
+
+---
+
+## IAS 20 — Accounting for Government Grants and Disclosure of Government Assistance
+
+**Scope:** Applies to all government grants and to the disclosure of other forms of government assistance. Does not apply to: government participation in the ownership of the entity; government grants covered by IAS 41 (agriculture); government assistance provided in the form of tax benefits (investment tax credits, tax holidays — those fall under IAS 12); or special problems of government grants in hyperinflationary economies (IAS 29).
+
+**Core principle:** Government grants shall not be recognised until there is reasonable assurance that the entity will comply with the conditions attached to the grant and that the grant will be received. Grants are recognised in income on a systematic basis over the periods in which the entity recognises as expenses the related costs for which the grants are intended to compensate.
+
+**Key rules:**
+- **Types of grants:**
+  - *Grants related to assets:* government grants whose primary condition is that an entity qualifying for them should purchase, construct, or otherwise acquire long-term assets
+  - *Grants related to income:* government grants other than those related to assets
+- **Recognition:**
+  - Reasonable assurance is required both that conditions will be complied with and that grants will be received. Cash receipt is not sufficient on its own; nor is a government announcement
+  - Non-monetary grants (e.g., land or other resources) may be measured at fair value or at nominal value
+  - Repayable grants: treated as a liability when repayment becomes probable
+- **Presentation of grants related to assets — two acceptable methods:**
+  1. **Deferred income method:** The grant is set up as deferred income and recognised in profit or loss systematically over the useful life of the asset (typically matching the depreciation charge)
+  2. **Deduction from asset method:** The grant is deducted from the carrying amount of the asset, reducing depreciation charges over the asset's useful life
+  - Both methods produce the same net effect on profit or loss over time
+- **Presentation of grants related to income — two acceptable methods:**
+  1. **Gross presentation:** Present the grant as "other income" or in a separate line item
+  2. **Net presentation:** Deduct the grant from the related expense
+  - Gross presentation is generally considered more informative
+- **Conditions and contingencies:**
+  - If conditions attached to a grant are not met, any amounts recognised must be repaid/reversed
+  - When repayment of a grant related to income becomes probable, it is recognised as an expense; when repayment of a grant related to an asset becomes probable, the deferred income is increased (deduction from asset method: carrying amount of asset is increased) by the amount repayable
+- **Government assistance** (benefits provided that cannot reasonably have a value placed on them, or transactions which cannot be distinguished from normal trading — e.g., government procurement policies, technical advice): disclosed but not recognised
+
+**Disclosure requirements:**
+- Accounting policy adopted for government grants, including presentation methods used
+- Nature and extent of government grants recognised, and an indication of other forms of government assistance from which the entity has directly benefited
+- Unfulfilled conditions and other contingencies attaching to recognised grants
+
+**Common pitfalls:**
+- Recognising a grant on receipt of cash rather than when reasonable assurance criteria are met
+- Applying the deferred income method but failing to update the amortisation pattern when the asset's useful life changes
+- Inconsistently applying the two presentation methods across similar grants
+- Failing to assess and disclose unfulfilled conditions that could lead to repayment
+- Not recognising a repayment liability promptly when repayment becomes probable
+- Accounting for grants differently under deferred income vs. deduction from asset without considering user comparability
+
+**Related standards:** IAS 16 (PPE — deduction from asset method), IAS 38 (grants related to intangible assets, same two-method presentation), IAS 12 (tax benefits not in scope of IAS 20), IAS 37 (contingent liabilities/repayment obligations), IAS 41 (agricultural grants)
+
+---
+
+## IAS 21 — The Effects of Changes in Foreign Exchange Rates
+
+**Scope:** Applies to: (a) accounting for transactions and balances in foreign currencies; (b) translating results and financial position of foreign operations included in consolidated financial statements or equity-method financial statements; and (c) translating an entity's results and financial position into a presentation currency. Does not apply to: hedge accounting for foreign currency items (IFRS 9), presentation of cash flows from foreign currency transactions in the statement of cash flows (IAS 7), or restatement of financial statements from functional currency to another in hyperinflationary economies (IAS 29).
+
+**Core principle:** An entity shall determine its functional currency — the currency of the primary economic environment in which it operates — and translate all foreign currency items into that functional currency using prescribed exchange rates. The results of foreign operations are then translated into any chosen presentation currency using specific translation procedures, with exchange differences arising on translation recognised in OCI.
+
+**Key rules:**
+- **Functional currency determination:**
+  - Primary indicators (highest weight): currency that mainly influences sales prices for goods/services; currency of the country whose competitive forces and regulations mainly determine selling prices; currency that mainly influences labour, material, and other costs of providing goods/services
+  - Secondary indicators: currency in which financing activities generate funds; currency in which receipts from operating activities are usually retained
+  - Management uses judgement when indicators are mixed; once determined, functional currency is not changed unless there is a change in the underlying transactions, events, and conditions
+- **Functional vs. presentation currency:**
+  - *Functional currency*: determined by economic reality; not a free choice
+  - *Presentation currency*: any currency the entity chooses for presenting its financial statements
+- **Initial recognition of a foreign currency transaction:**
+  - Recorded in the functional currency using the spot exchange rate at the date of the transaction (or an average rate for the period as an approximation if rates do not fluctuate significantly)
+- **Translation of monetary vs. non-monetary items at subsequent reporting dates:**
+  - *Monetary items* (cash, receivables, payables, loans): retranslated at the closing rate (spot rate at reporting date); exchange differences recognised in **profit or loss**
+  - *Non-monetary items measured at historical cost* (PPE at cost, intangibles at cost, inventories): not retranslated; carried at the original transaction-date exchange rate
+  - *Non-monetary items measured at fair value* (PPE under revaluation model, equity investments at FVOCI): retranslated at the rate on the date the fair value was determined; exchange differences included in the fair value movement (P&L or OCI depending on the host standard)
+- **Exchange differences in P&L:**
+  - Arising on settlement or retranslation of monetary items: recognised in profit or loss in the period they arise
+  - Exception: exchange differences on intragroup monetary items that form part of the net investment in a foreign operation — recognised in the consolidated financial statements in OCI (accumulated in translation reserve)
+  - Exception: exchange differences on foreign currency borrowings that are effective hedges of net investments — recognised in OCI under IFRS 9 hedge accounting
+- **Translation of foreign operations into presentation currency:**
+  - *Assets and liabilities:* translated at the closing rate at the balance sheet date (including goodwill and fair value adjustments arising on acquisition)
+  - *Income and expenses:* translated at exchange rates at the dates of the transactions (or average rates as approximation)
+  - *Equity items* (share capital, pre-acquisition reserves): translated at historical rates
+  - *Exchange differences arising:* recognised in **OCI** and accumulated in the foreign currency translation reserve (FCTR) in equity
+  - On disposal of a foreign operation: the cumulative FCTR relating to that operation is reclassified from OCI to profit or loss (recycled)
+  - Partial disposal: proportionate amount of FCTR reclassified only on loss of control/significant influence/joint control; for other partial disposals (without loss of control) the FCTR is not recycled
+- **Goodwill and fair value adjustments on acquisition:** Treated as assets/liabilities of the foreign operation and translated at the closing rate
+- **Highly inflationary economies (IAS 29 interaction):** The financial statements of a foreign operation that reports in the currency of a hyperinflationary economy should be restated under IAS 29 before being translated at the closing rate
+
+**Disclosure requirements:**
+- The amount of exchange differences recognised in profit or loss (except for those arising on financial instruments measured at fair value through P&L)
+- Net exchange differences recognised in OCI and classified in a separate component of equity, and a reconciliation of the opening and closing balance of that component
+- When the presentation currency is different from the functional currency: that fact, the functional currency, and the reason for using a different presentation currency
+- When there is a change in functional currency: that fact, the reason for the change, and the date of the change
+- The entity's policy for translating goodwill and fair value adjustments
+- When an entity disposes of a foreign operation: amount of exchange differences reclassified to P&L
+
+**Common pitfalls:**
+- Treating functional currency as a free choice (it is determined by economic facts, not management preference)
+- Retranslating non-monetary items carried at historical cost at the closing rate
+- Failing to retranslate monetary items at the closing rate and recognising the exchange difference
+- Recognising the translation reserve recycling on partial disposals that do not result in loss of control
+- Applying average rates to translate items where exchange rates fluctuated significantly (approximation is permitted only when rates do not fluctuate significantly)
+- Not translating goodwill and fair value adjustments at the closing rate (treating them as parent-entity items)
+- Forgetting to recycle the FCTR on full disposal of a foreign operation, or recycling on partial disposals that do not involve a loss of control/influence
+
+**Related standards:** IFRS 9 (hedge accounting for foreign currency risk), IAS 7 (translation of cash flows), IAS 29 (hyperinflationary economies), IFRS 3 (business combinations — translation of goodwill and fair value adjustments), IFRS 10 (consolidation — translation of foreign subsidiaries), IAS 28 (equity method — translation of associates/JVs)
+
+---
+
+*Document prepared as a professional reference for accountants and auditors. Based on IFRS standards as issued by the IASB. Always refer to the full text of the relevant standard and any applicable jurisdiction-specific modifications for authoritative guidance.*
