@@ -25,7 +25,7 @@ A comprehensive IFRS (International Financial Reporting Standards) skill that gi
 ### Claude Code
 ```bash
 # Clone to your skills directory
-git clone https://github.com/YOUR_USERNAME/ifrs-skill.git ~/.claude/skills/ifrs
+git clone https://github.com/ramyatrouny/ifrs-skill.git ~/.claude/skills/ifrs
 
 # Or copy manually
 cp -r ifrs/ ~/.claude/skills/ifrs/
@@ -33,7 +33,7 @@ cp -r ifrs/ ~/.claude/skills/ifrs/
 
 ### Codex CLI
 ```bash
-git clone https://github.com/YOUR_USERNAME/ifrs-skill.git ~/.codex/skills/ifrs
+git clone https://github.com/ramyatrouny/ifrs-skill.git ~/.codex/skills/ifrs
 ```
 
 ### Other Agents
