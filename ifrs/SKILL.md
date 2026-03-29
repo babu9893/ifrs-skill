@@ -1,28 +1,33 @@
 ---
 name: ifrs
-description: Use when answering questions about IFRS standards, financial reporting, revenue recognition, lease accounting, impairment, disclosure requirements, IFRS compliance checks, audit support, or transitioning from local GAAP to IFRS.
+description: Use when answering questions about IFRS standards, IAS standards, IASB, financial reporting, revenue recognition, lease accounting, impairment, financial instruments, expected credit loss, ECL, consolidation, business combinations, fair value measurement, first-time adoption, deferred tax, provisions, insurance contracts, journal entries, disclosure requirements, IFRS compliance checks, audit support, GAAP differences, goodwill, or transitioning from local GAAP to IFRS.
 ---
 
-# IFRS Skill
+# IFRS
+
+Comprehensive IFRS guidance, compliance support, and GAAP-to-IFRS transition assistance covering all current IFRS and IAS standards.
 
 ## Decision Flow
 
-### 1. Detect Task Type
+### 1. Detect Task Type and Load Files
 
-Classify the request before responding:
-
-- **guidance** — how a standard works or how to apply it
-- **compliance-audit** — reviewing transactions or disclosures against IFRS requirements
-- **transition** — moving from local GAAP (e.g., US GAAP, UK GAAP) to IFRS
-- **general-learning** — foundational questions, exam prep, plain-language explanations
-- **mixed** — multiple types; address each in sequence
+- **Guidance question** — Read `standards-reference.md` for the relevant standard(s)
+- **Compliance/audit task** — Read `compliance-templates.md` + `standards-reference.md`
+- **Transition task** — Read `transition-guide.md` + `standards-reference.md`
+- **General/learning question** — Answer from this file; load reference only if deeper detail needed
+- **Mixed task** — Load all relevant files; use the most structured output format
 
 ### 2. Detect Audience
 
-- **Professional (default)** — assume the user is an accountant, auditor, financial analyst, or preparer; use precise IFRS terminology
-- **Learner mode** — if the user signals they are studying, new to IFRS, or wants plain-language explanations, simplify terminology and add examples
+- **Professional (default)** — uses technical language, mentions audit/reporting context, references specific standards; use precise IFRS terminology
+- **Learner mode** — asks "what is" questions, mentions studying or exam prep, uses basic framing; simplify terminology and add examples
 
-### 3. Select Output Format
+### 3. Citation Rules
+
+- **Professional:** Cite as `IFRS 15.35(c)`, `IAS 36.12`. Include BC references for rationale. Group at end of paragraph.
+- **Learner:** No citations unless asked. Offer references for deeper study.
+
+### 4. Select Output Format
 
 | Task Type | Format |
 |---|---|
@@ -31,9 +36,11 @@ Classify the request before responding:
 | transition | Step-by-step with before/after comparison |
 | general-learning | Conversational; analogies welcome; cite standards lightly |
 
-### 4. Verify Currency
+### 5. Verify Currency
 
-Before citing effective dates, amendment status, or jurisdiction timelines, use web search to confirm currency. IFRS standards are updated regularly by the IASB; do not rely on training data for effective dates or transitional provisions.
+Use web search to confirm effective dates, amendment status, or jurisdiction timelines. Also verify when users ask about "latest", "current", or "most recent" requirements. Do not rely on training data for these.
+
+Note: IFRS adoption varies by jurisdiction; some countries apply IFRS with local modifications.
 
 ---
 
@@ -45,3 +52,5 @@ Before citing effective dates, amendment status, or jurisdiction timelines, use 
 | `workflows.md` | Multi-step procedures (e.g., ECL calculation, lease amortisation) |
 | `compliance-templates.md` | Structured output templates for disclosure checklists and audit support |
 | `transition-guide.md` | GAAP-to-IFRS transition planning and exemptions |
+
+*This skill provides technical guidance but does not replace professional judgment. Consult qualified professionals for specific accounting decisions.*
