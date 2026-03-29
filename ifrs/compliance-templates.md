@@ -83,14 +83,19 @@ Systematically verify that all mandatory and encouraged disclosures required by 
 | 16 | Sale and leaseback transactions | IFRS 16.59(b)(ii) | N/A | None |
 | 17 | Significant assumptions or judgments in applying IFRS 16 (e.g., determining whether a contract contains a lease, allocation of consideration, discount rate, extension/termination options) | IFRS 16.59-60 | Yes | Note 3 critical judgments, p. 28 |
 | 18 | Weighted average lessee's incremental borrowing rate applied | IFRS 16.C12(b) / IFRS 16.59 | Yes | 4.8% disclosed in Note 12 |
+| 19 | Separate presentation of ROU assets (in balance sheet or notes by class of underlying asset) | IFRS 16.51 | Yes | Note 12, table by class (property, vehicles, equipment) |
+| 20 | Separate presentation of lease liabilities (if not separately presented in the statement of financial position) | IFRS 16.52 | Yes | Current/non-current split in Note 25 |
+| 21 | Information about leases preferably presented in tabular format | IFRS 16.54 | Yes | Note 12 uses tabular format for ROU assets and depreciation |
+| 22 | Additional information necessary to meet the disclosure objective (assessing the effect of leases on financial position, financial performance, and cash flows) | IFRS 16.55 | Yes | Note 12 narrative provides context on lease portfolio and strategy |
+| 23 | Variable lease payments: nature and basis of variability | IFRS 16.56-57 | No | Revenue-linked variable rents described qualitatively but nature of variability and sensitivity not disclosed |
 
 **Summary**
 
 | Metric | Count |
 |---|---|
-| Total items assessed | 18 |
-| Included (Yes) | 12 |
-| Missing (No) | 3 |
+| Total items assessed | 23 |
+| Included (Yes) | 16 |
+| Missing (No) | 4 |
 | Not applicable (N/A) | 3 |
 | **Completion rate** | 80% |
 
@@ -101,6 +106,7 @@ Systematically verify that all mandatory and encouraged disclosures required by 
 | 1 | Variable lease payments not included in lease liabilities | IFRS 16.53(e) | Medium -- incomplete picture of lease costs; potential audit finding | Quantify variable lease payments by class and disclose in Note 12 |
 | 2 | Future cash outflows not reflected in lease liabilities | IFRS 16.59(b) | Medium -- users cannot assess exposure to variable rents | Add sensitivity or range disclosure for revenue-linked variable rents |
 | 3 | Restrictions or covenants imposed by leases | IFRS 16.59(b)(i) | Low -- existing covenant note partially addresses this | Expand loan covenant note to separately address lease-specific restrictions |
+| 4 | Variable lease payments: nature of variability and sensitivity | IFRS 16.56-57 | Medium -- users cannot understand the basis and risk profile of variable lease costs | Disclose the nature of variability (revenue-linked rents), amounts recognised, and sensitivity to changes in the relevant factor |
 
 ---
 
@@ -542,9 +548,9 @@ observable standalone prices are available.
            Cr  Revenue -- Implementation              CU 551,489
            Cr  Contract liability -- Implementation    CU 48,511
 
-       (CU 48,511 = CU 612,766 - CU 551,489 - CU 25,532
-        already in contract liability from (a); the net contract
-        liability for implementation at 31 Dec 2025 is
+       (CU 48,511 = CU 600,000 cash received − CU 551,489
+        revenue recognised; the net contract liability for
+        implementation at 31 Dec 2025 is
         CU 612,766 - CU 551,489 = CU 61,277.)
 
    (c) Aug - Dec 2025 -- PCS (5 additional months)
@@ -572,12 +578,14 @@ observable standalone prices are available.
    | **Total contract liabilities** | **159,149** |
 
    (Contract liabilities reconciliation:
-    CU 2,400,000 total price
-    - CU 2,200,000 cash received to date
-    - CU 1,828,085 revenue recognised
-    + CU 2,200,000 cash received
-    = CU 159,149 remaining obligation.
-    Alternatively: CU 61,277 + CU 97,872 = CU 159,149.)
+    Implementation contract liability CU 61,277
+    (CU 612,766 allocated − CU 551,489 recognised)
+    + PCS contract liability CU 97,872
+    (CU 200,000 received − CU 102,128 recognised)
+    = CU 159,149.
+    Cash received to date: CU 1,200,000 (license)
+    + CU 600,000 (implementation) + CU 200,000 (first PCS year)
+    = CU 2,000,000.)
 
    (d) Q1 2026 -- Complete implementation (remaining 10%)
 
@@ -656,6 +664,88 @@ observable standalone prices are available.
    (e) The disclosure templates should be updated for the
        current period to include the new disaggregation
        categories and remaining performance obligation schedule.
+```
+
+---
+
+## 4. Management Representation Letter Template (ISA 580 / IFRS-specific)
+
+### Purpose
+
+Obtain written confirmation from management regarding their responsibilities and specific IFRS-related assertions. This template covers general audit representations and IFRS-specific items that should be tailored to the entity's circumstances.
+
+### Template
+
+```
+MANAGEMENT REPRESENTATION LETTER
+
+To: [Auditor Name/Firm]
+From: [Management — CEO and CFO]
+Date: [Date]
+Re: Audit of financial statements for the year ended [Date]
+
+We confirm that, to the best of our knowledge and belief:
+
+General Representations:
+1. We have fulfilled our responsibilities for the preparation and fair presentation of the financial statements in accordance with IFRS as issued by the IASB
+2. We have provided you with access to all information relevant to the preparation of the financial statements
+3. All transactions have been recorded and are reflected in the financial statements
+
+IFRS-Specific Representations:
+4. Revenue has been recognised in accordance with IFRS 15, with performance obligations identified and transaction prices allocated appropriately
+5. All lease arrangements have been identified and accounted for under IFRS 16
+6. Expected credit losses on financial assets have been measured in accordance with IFRS 9
+7. Impairment assessments have been performed for all assets within scope of IAS 36, including annual testing of goodwill and indefinite-life intangible assets
+8. Provisions have been recognised only where a present obligation exists from a past event and a reliable estimate can be made (IAS 37)
+9. Related party relationships and transactions have been appropriately identified and disclosed (IAS 24)
+10. Events after the reporting period have been evaluated through [date of authorisation] and appropriately reflected or disclosed (IAS 10)
+11. Deferred tax assets have been recognised only to the extent that it is probable that taxable profit will be available (IAS 12)
+12. [Add entity-specific representations as needed]
+
+Signed:
+[CEO Name and Title]
+[CFO Name and Title]
+```
+
+---
+
+## 5. Accounting Policy Summary Template
+
+### Purpose
+
+Provide a structured overview of an entity's significant accounting policies, key elections, and areas of judgment. This template supports consistency across reporting periods and facilitates review by auditors and audit committees.
+
+### Template
+
+```
+ACCOUNTING POLICY SUMMARY
+
+Entity: [Name]
+Reporting Period: [Date]
+Basis of Preparation: IFRS as issued by the IASB / IFRS as adopted by [jurisdiction]
+
+| Policy Area | Standard | Policy Adopted | Key Elections/Judgments | Effective Date |
+|-------------|----------|---------------|----------------------|----------------|
+| Revenue recognition | IFRS 15 | [5-step model application] | [Over-time vs point-in-time for key contracts] | [Date] |
+| Leases (lessee) | IFRS 16 | [ROU asset and lease liability] | [Short-term/low-value exemptions elected?] | [Date] |
+| Financial instruments | IFRS 9 | [Classification categories used] | [Business model, ECL approach] | [Date] |
+| PP&E | IAS 16 | [Cost model / Revaluation model] | [Component depreciation, useful lives] | [Date] |
+| Intangible assets | IAS 38 | [Cost model / Revaluation model] | [Development cost capitalisation criteria] | [Date] |
+| Investment property | IAS 40 | [Cost model / Fair value model] | [Classification criteria] | [Date] |
+| Impairment | IAS 36 | [CGU identification basis] | [Key assumptions for VIU/FVLCOD] | [Date] |
+| Employee benefits | IAS 19 | [Defined benefit/contribution] | [Discount rate, actuarial assumptions] | [Date] |
+| Provisions | IAS 37 | [Best estimate measurement] | [Discount rate if material] | [Date] |
+| Foreign currency | IAS 21 | [Functional currency: XXX] | [Presentation currency, translation method] | [Date] |
+| Consolidation | IFRS 10 | [Control assessment basis] | [Structured entities, investment entity status] | [Date] |
+
+Changes from Prior Period:
+- [List any policy changes with IAS 8 transition approach]
+
+Significant Judgments (IAS 1.122-124):
+- [List key judgments that significantly affect amounts recognised]
+
+Key Sources of Estimation Uncertainty (IAS 1.125-133):
+- [List assumptions about the future with significant risk of material adjustment]
 ```
 
 ---
