@@ -1,6 +1,6 @@
 # IFRS Workflows — Step-by-Step Procedures
 
-This file provides detailed, practitioner-level workflows for the five core IFRS process areas. Each workflow includes substeps, decision points, key judgments, and example journal entries.
+This file provides detailed, practitioner-level workflows for seven core IFRS process areas. Each workflow includes substeps, decision points, key judgments, and example journal entries.
 
 ---
 
@@ -226,6 +226,46 @@ To record billing to customer.
 
 ---
 
+### Appendix: Special Topics — Revenue Recognition
+
+#### Principal vs Agent (IFRS 15.B34-B38)
+
+When another party is involved in providing goods or services to a customer, the entity must determine whether it is a **principal** (controls the good or service before transfer) or an **agent** (arranges for another party to provide the good or service).
+
+- **Principal** -> recognise revenue at the **gross** amount of consideration.
+- **Agent** -> recognise revenue at the **net** amount (commission or fee).
+
+**Indicators that an entity is a principal:**
+- The entity has **primary responsibility** for fulfilling the promise to provide the good or service.
+- The entity has **inventory risk** before or after the good or service is transferred to the customer (or after transfer, e.g., return rights).
+- The entity has **discretion in establishing the price** for the good or service.
+
+**Key judgment:** No single indicator is determinative. The overall assessment focuses on whether the entity controls the specified good or service before it is transferred to the customer.
+
+#### Bill-and-Hold Arrangements (IFRS 15.B79-B82)
+
+A bill-and-hold arrangement is one in which an entity bills a customer for a product but retains physical possession until a future date. Revenue is recognised when the customer obtains control, even without physical delivery, if **all four** of the following criteria are met:
+
+1. The reason for the bill-and-hold arrangement is **substantive** (e.g., the customer requested the arrangement).
+2. The product has been **identified separately as belonging to the customer**.
+3. The product is currently **ready for physical transfer** to the customer.
+4. The entity **cannot use the product** or direct it to another customer.
+
+If these criteria are met, the entity recognises revenue at the point control transfers (which may be before physical delivery). The entity must also consider whether it has a separate performance obligation for custodial services.
+
+#### Consignment Arrangements (IFRS 15.B77-B78)
+
+When a product is delivered to another party (e.g., a dealer or distributor) for sale to end customers, the entity must assess whether the arrangement is a **consignment**. If so, control has NOT transferred and revenue is not recognised until the product is sold to the end customer (or the consignment period expires).
+
+**Indicators that an arrangement is consignment:**
+- The product is **controlled by the entity** until a specified event occurs (e.g., sale to an end customer).
+- The entity is able to **require the return** of the product or **transfer the product to a third party**.
+- The dealer/distributor does **not have an unconditional obligation** to pay for the product (although a deposit may be required).
+
+**Related workflows:** IFRS 16 (determining whether an arrangement is a lease vs. a service — Step 1), IFRS 9 (significant financing component may affect financial instrument accounting), IFRS 3 (revenue from contracts acquired in a business combination), IFRS 1 (completed contracts exemption on transition).
+
+---
+
 ## 2. Lease Accounting (IFRS 16)
 
 ### Step 1: Identify Whether the Arrangement Contains a Lease
@@ -409,6 +449,132 @@ To recognise depreciation of right-of-use asset.
 
 ---
 
+### Lessor Accounting — Journal Entries and Subsequent Measurement
+
+#### Finance Lease — Lessor
+
+**Facts:** Lessor leases equipment with a fair value/carrying amount of CU 300,000 for 5 years. Annual lease payments of CU 70,000 payable at year-end. Implicit rate = 5.6%. Unguaranteed residual value = CU 0. Net investment in the lease = CU 300,000 (PV of payments).
+
+```
+At commencement — initial recognition:
+
+Dr  Lease Receivable (Net Investment)    300,000
+    Cr  Equipment (PP&E)                             300,000
+To derecognise the underlying asset and recognise net investment in the finance lease.
+
+Year 1 — interest income:
+
+Interest income = CU 300,000 x 5.6% = CU 16,800
+
+Dr  Lease Receivable                      16,800
+    Cr  Interest Income (P&L)                         16,800
+To recognise finance income on the net investment in the lease.
+
+Year 1 — receipt of lease payment:
+
+Dr  Cash                                  70,000
+    Cr  Lease Receivable                              70,000
+To record receipt of annual lease payment.
+
+Closing net investment = 300,000 + 16,800 - 70,000 = CU 246,800
+```
+
+**Subsequent measurement:** The lessor recognises interest income over the lease term using the effective interest method applied to the net investment in the lease. The net investment is reduced by each lease payment received.
+
+#### Operating Lease — Lessor
+
+**Facts:** Lessor leases office space for 3 years. Annual lease payments of CU 120,000. The building has a carrying amount of CU 2,000,000 and a useful life of 40 years.
+
+```
+Annual income recognition (straight-line):
+
+Dr  Cash / Lease Receivable              120,000
+    Cr  Lease Income (P&L)                           120,000
+To recognise operating lease income on a straight-line basis.
+
+Annual depreciation of the underlying asset:
+
+Dr  Depreciation Expense                  50,000
+    Cr  Accumulated Depreciation — Building           50,000
+To depreciate the underlying asset (CU 2,000,000 / 40 years).
+```
+
+**Subsequent measurement:** The lessor continues to recognise the underlying asset on its balance sheet, depreciating it per IAS 16. Lease income is recognised on a straight-line basis over the lease term (or another systematic basis if more representative of the pattern of benefit).
+
+---
+
+### Sale-and-Leaseback Transactions (IFRS 16.98-103)
+
+A sale-and-leaseback transaction involves the transfer of an asset by the seller-lessee to the buyer-lessor, followed by the seller-lessee leasing that asset back.
+
+#### The Transfer Test: Does the Transfer Satisfy IFRS 15 as a Sale?
+
+Apply the requirements of IFRS 15 (specifically the criteria for transfer of control) to determine whether the transfer of the asset should be accounted for as a sale.
+
+**Decision point — Is the transfer a sale under IFRS 15?**
+
+#### If YES (the transfer IS a sale):
+
+1. **Seller-lessee** derecognises the underlying asset and recognises a right-of-use (ROU) asset at the **proportion of the previous carrying amount** that relates to the right of use retained.
+2. The seller-lessee recognises a **gain or loss only on the rights transferred** to the buyer-lessor (i.e., the portion of the gain or loss relating to the rights transferred).
+
+Formulas:
+- ROU asset = Previous carrying amount x (PV of lease payments / Fair value of asset)
+- Gain/loss recognised = Total gain on disposal x (Fair value of asset - PV of lease payments) / Fair value of asset
+
+**Journal entry — Sale-and-leaseback (qualifies as a sale):**
+
+**Facts:** Seller-lessee sells a building with carrying amount CU 800,000 for fair value CU 1,000,000 and leases it back. PV of leaseback payments = CU 600,000 (i.e., 60% of fair value retained as right of use).
+
+```
+Dr  Cash                                1,000,000
+Dr  Right-of-Use Asset                    480,000
+    Cr  Building (carrying amount)                    800,000
+    Cr  Lease Liability                               600,000
+    Cr  Gain on Disposal (P&L)                         80,000
+To recognise the sale-and-leaseback. ROU asset = 800,000 x (600,000/1,000,000) = 480,000.
+Gain recognised only on rights transferred = (1,000,000 - 800,000) x (1,000,000 - 600,000)/1,000,000 = 80,000.
+```
+
+#### If NOT a Sale (transfer does NOT satisfy IFRS 15):
+
+1. **Seller-lessee** continues to recognise the transferred asset on its balance sheet.
+2. The seller-lessee recognises a **financial liability** equal to the transfer proceeds (accounted for under IFRS 9).
+3. **Buyer-lessor** does not recognise the asset; recognises a financial asset equal to the transfer proceeds.
+
+**Journal entry — Sale-and-leaseback (does NOT qualify as a sale):**
+
+**Facts:** Seller-lessee transfers equipment with carrying amount CU 500,000 for CU 500,000 but the transfer does not satisfy IFRS 15 criteria for a sale.
+
+```
+Seller-lessee:
+
+Dr  Cash                                  500,000
+    Cr  Financial Liability                           500,000
+To recognise proceeds as a financial liability (the asset remains on the balance sheet).
+
+Subsequent payments:
+
+Dr  Financial Liability                       XXX
+Dr  Interest Expense (P&L)                    XXX
+    Cr  Cash                                              XXX
+To record payments, split between principal repayment and interest (effective interest method).
+```
+
+#### Sale-and-Leaseback with Variable Payments (2024 Amendment)
+
+The September 2022 amendment (effective 1 January 2024) clarifies how a seller-lessee measures the leaseback ROU asset and determines gain/loss when the leaseback includes **variable lease payments** that do not depend on an index or rate.
+
+Key requirements:
+- Variable lease payments that do not depend on an index or rate are **excluded** from the measurement of the lease liability.
+- At initial measurement, the seller-lessee determines the leaseback liability using only those payments included in the lease liability per IFRS 16.26 (fixed payments, index/rate-based variable payments, etc.).
+- The proportion of the asset retained (and therefore the gain/loss recognised) is determined based on the right of use retained, which includes the economic effect of all leaseback payments (including variable payments not in the liability).
+- This prevents a seller-lessee from recognising a gain on the right of use retained by structuring variable payments.
+
+**Related workflows:** IFRS 15 (separating lease and non-lease components; sale-and-leaseback transfer test), IAS 36 (impairment testing of ROU assets), IAS 12 (temporary differences arising from ROU assets and lease liabilities), IFRS 1 (lease arrangements exemption on transition).
+
+---
+
 ## 3. Impairment Testing (IAS 36)
 
 ### Step 1: Identify Indicators of Impairment
@@ -493,6 +659,30 @@ When an asset cannot be tested individually (e.g., it does not generate independ
 
 Any impairment loss that cannot be allocated to a specific asset because of this constraint is allocated pro-rata to the other assets in the CGU.
 
+#### Corporate Asset Allocation (IAS 36.100-103)
+
+Corporate assets are assets (such as a head office building, centralised IT equipment, or a research centre) that do not generate cash inflows independently and whose carrying amount cannot be fully attributed to a single CGU.
+
+**Key principle:** Because corporate assets do not generate independent cash flows, they cannot be tested for impairment on a standalone basis. The entity must allocate corporate assets to CGUs on a reasonable and consistent basis.
+
+**Approach — Bottom-up / Top-down:**
+
+1. **Bottom-up test:** Determine whether the carrying amount of the corporate asset can be allocated to the CGU under review on a reasonable and consistent basis.
+   - If **yes**, allocate a portion of the corporate asset to the CGU and test the CGU (including the allocated portion) for impairment.
+   - If **no**, proceed to the top-down test.
+
+2. **Top-down test:** Identify the **smallest group of CGUs** that includes the CGU under review and to which a portion of the carrying amount of the corporate asset can be allocated on a reasonable and consistent basis. Test that group of CGUs (including the allocated corporate asset) for impairment.
+
+**Common allocation bases:**
+- Relative carrying amounts of the CGUs.
+- Relative revenues or gross margins.
+- Number of employees or floor space.
+
+**Important considerations:**
+- The allocation basis must be reasonable and consistent from period to period.
+- If there is an indication that a corporate asset may be impaired, the recoverable amount is determined for the CGU or group of CGUs to which the corporate asset belongs.
+- Any resulting impairment loss is allocated per the normal CGU allocation order (goodwill first, then other assets pro-rata).
+
 #### Journal Entry — Impairment of a CGU:
 
 **Facts:** CGU has a carrying amount of CU 1,000,000 (goodwill CU 200,000, equipment CU 500,000, other assets CU 300,000). Recoverable amount is CU 750,000. Impairment loss = CU 250,000.
@@ -526,6 +716,8 @@ Dr  Impairment Loss (P&L)                50,000
 - **Goodwill** — impairment losses recognised for goodwill shall **never** be reversed (IAS 36.124).
 
 **Key judgment:** Reversal of an impairment loss for a CGU is allocated to the assets of the unit (excluding goodwill) on a pro-rata basis. The same individual asset ceiling applies in reverse — no asset's carrying amount can exceed the lower of its recoverable amount and its depreciated historical cost (without impairment).
+
+**Related workflows:** IFRS 3 (goodwill from business combinations — annual impairment test), IFRS 16 (impairment of ROU assets), IAS 12 (changes in temporary differences when impairment is recognised or reversed), IFRS 9 (ECL impairment model for financial assets — separate from IAS 36).
 
 ---
 
@@ -668,6 +860,101 @@ All of the following must be met at inception and on an ongoing basis:
 
 ---
 
+### ECL General Approach — Numerical Example (PD x LGD x EAD)
+
+**Facts:** A bank holds a CU 1,000,000 corporate loan. The following credit risk parameters apply:
+
+| Parameter | At Origination | At Reporting Date |
+|---|---|---|
+| **12-month PD** | 1.0% | 2.5% |
+| **Lifetime PD** (cumulative over 5-year remaining term) | 6.0% | 15.0% |
+| **LGD** | 40% | 40% |
+| **EAD** | CU 1,000,000 | CU 1,000,000 |
+
+**Stage 1 — 12-month ECL (no significant increase in credit risk):**
+
+```
+12-month ECL = 12-month PD x LGD x EAD
+             = 2.5% x 40% x 1,000,000
+             = CU 10,000
+```
+
+**Stage 2 — Lifetime ECL (significant increase in credit risk has occurred):**
+
+Assume the 12-month PD has increased from 1.0% at origination to 2.5%, representing a significant increase in credit risk. The loan migrates to Stage 2.
+
+```
+Lifetime ECL = Lifetime PD x LGD x EAD
+             = 15.0% x 40% x 1,000,000
+             = CU 60,000
+```
+
+**Impact of stage migration:**
+
+| | Stage 1 | Stage 2 | Increase in Allowance |
+|---|---|---|---|
+| **Loss allowance** | CU 10,000 | CU 60,000 | CU 50,000 |
+
+The additional CU 50,000 is recognised as an impairment loss in profit or loss upon migration from Stage 1 to Stage 2.
+
+**Note:** In practice, lifetime ECL calculations are more complex, involving marginal PDs for each future period, discounting to present value, and weighting across multiple economic scenarios. The above is a simplified illustration of the core PD x LGD x EAD framework.
+
+---
+
+### Example Journal Entries — Financial Instruments (IFRS 9)
+
+#### ECL Provision — Initial Recognition and Stage Migration
+
+**Stage 1 — 12-month ECL (initial recognition):**
+
+```
+Dr  Impairment Loss (P&L)                10,000
+    Cr  Loss Allowance                                10,000
+To recognise 12-month expected credit loss on initial recognition of the loan.
+```
+
+**Migration to Stage 2 — Lifetime ECL (significant increase in credit risk):**
+
+```
+Dr  Impairment Loss (P&L)                50,000
+    Cr  Loss Allowance                                50,000
+To recognise additional loss allowance upon migration from Stage 1 (12-month ECL of CU 10,000)
+to Stage 2 (lifetime ECL of CU 60,000). Incremental charge = CU 50,000.
+```
+
+#### Cash Flow Hedge — Journal Entries
+
+**Facts:** An entity enters into an interest rate swap to hedge the variability of cash flows on a variable-rate borrowing. At period end, the swap has a fair value gain of CU 25,000, of which CU 23,000 is effective and CU 2,000 is ineffective.
+
+**Effective portion — recognised in OCI:**
+
+```
+Dr  Hedging Instrument (Derivative Asset)  23,000
+    Cr  OCI — Cash Flow Hedge Reserve                  23,000
+To recognise the effective portion of the gain on the hedging instrument in OCI.
+```
+
+**Ineffective portion — recognised in P&L:**
+
+```
+Dr  Hedging Instrument (Derivative Asset)   2,000
+    Cr  Gain on Hedging Ineffectiveness (P&L)           2,000
+To recognise the ineffective portion of the gain on the hedging instrument in profit or loss.
+```
+
+**Reclassification when the hedged item affects P&L (e.g., interest payment date):**
+
+```
+Dr  OCI — Cash Flow Hedge Reserve         23,000
+    Cr  Interest Expense (P&L)                         23,000
+To reclassify the cash flow hedge reserve amount to profit or loss when the hedged
+variable-rate interest payment affects profit or loss.
+```
+
+**Related workflows:** IFRS 15 (significant financing component in revenue contracts), IFRS 16 (lease liabilities as financial liabilities), IAS 36 (IAS 36 applies to non-financial assets; IFRS 9 ECL applies to financial assets), IAS 12 (deferred tax on ECL provisions and hedge reserves), IFRS 3 (contingent consideration remeasurement under IFRS 9).
+
+---
+
 ## 5. First-Time Adoption (IFRS 1)
 
 ### Step 1: Identify Key Dates
@@ -767,8 +1054,6 @@ The first IFRS financial statements must include reconciliations from previous G
 
 Reference notes (a) through (g) should provide narrative explanations of each adjustment, including the IFRS standard driving the adjustment, the nature of the change, and the amount.
 
----
-
 ### Step 6: Disclosure Requirements (IFRS 1.20-33)
 
 The first IFRS financial statements must include:
@@ -785,6 +1070,281 @@ The first IFRS financial statements must include:
 7. **Interim financial reports** — if the entity presents an interim financial report under IAS 34 for part of the period covered by its first IFRS financial statements, provide reconciliations and specific disclosures for that interim period as well.
 
 **Key judgment:** The disclosures must be sufficient for users to understand the material adjustments to the statement of financial position, comprehensive income, and cash flows. Boilerplate language is insufficient — entity-specific explanations are required.
+
+**Related workflows:** All other workflows — IFRS 1 transition impacts every standard. Key interactions: IFRS 15 (completed contracts exemption), IFRS 16 (lease arrangements exemption), IAS 36 (impairment on transition), IFRS 9 (classification and measurement at transition date), IAS 12 (deferred tax on all transition adjustments), IFRS 3 (business combinations exemption).
+
+---
+
+## 6. Deferred Tax (IAS 12) — Calculation Workflow
+
+### Step 1: Determine the Carrying Amount of Each Asset and Liability
+
+For each asset and liability on the statement of financial position, determine the carrying amount per the IFRS financial statements. This is the starting point for identifying temporary differences.
+
+### Step 2: Determine the Tax Base of Each Asset and Liability
+
+The **tax base** is the amount attributed to an asset or liability for tax purposes:
+
+- **Tax base of an asset** = the amount deductible for tax purposes against future taxable economic benefits. If those benefits are not taxable, the tax base equals the carrying amount.
+- **Tax base of a liability** = carrying amount less any amount deductible for tax in future periods. For revenue received in advance, the tax base = carrying amount less any amount not taxable in the future.
+
+### Step 3: Identify Temporary Differences
+
+A **temporary difference** is the difference between the carrying amount and the tax base.
+
+| Type | Definition | Gives Rise To |
+|---|---|---|
+| **Taxable temporary difference** | Carrying amount of asset > tax base; or carrying amount of liability < tax base | **Deferred Tax Liability (DTL)** |
+| **Deductible temporary difference** | Carrying amount of asset < tax base; or carrying amount of liability > tax base | **Deferred Tax Asset (DTA)** |
+
+#### Common Sources of Temporary Differences:
+
+| Item | Typical Direction | Explanation |
+|---|---|---|
+| Accelerated tax depreciation (PP&E) | Taxable TD | Tax depreciation exceeds accounting depreciation, so tax base < carrying amount |
+| Provisions (e.g., warranty, restructuring) | Deductible TD | Recognised for accounting but deductible for tax only when paid |
+| Lease liabilities (IFRS 16) | Deductible TD (net) | Lease liability recognised in accounts but no equivalent tax liability |
+| Right-of-use assets (IFRS 16) | Taxable TD | ROU asset recognised in accounts with zero tax base |
+| Fair value gains on investment property | Taxable TD | Gains recognised in accounts but not taxed until disposal |
+| Revaluation of PP&E under IAS 16 | Taxable TD | Revaluation surplus creates carrying amount > tax base |
+| Unrealised profit on intercompany transactions | Deductible TD | Profit eliminated in consolidation but taxed in the selling entity |
+| Tax losses carried forward | Deductible TD | No accounting asset but a tax deduction available in the future |
+| Employee benefit obligations (IAS 19) | Deductible TD | Liability recognised in accounts; deductible when paid |
+| Expected credit losses (IFRS 9) | Deductible TD | Loss allowance recognised for accounting but deductible only on write-off |
+
+### Step 4: Apply Recognition Criteria
+
+- **DTL:** Recognise for **all** taxable temporary differences, **except**:
+  - Initial recognition of goodwill (IAS 12.15(a)).
+  - Initial recognition of an asset or liability in a transaction that is not a business combination and, at the time of the transaction, affects neither accounting profit nor taxable profit (the **initial recognition exemption** — IAS 12.15(b)). Note: the 2023 amendment (Pillar Two) and the 2021 amendment narrow this exemption for leases and decommissioning obligations.
+  - Investments in subsidiaries, branches, associates, and JVs where the entity can control the timing of reversal and it is probable the TD will not reverse in the foreseeable future (IAS 12.39).
+
+- **DTA:** Recognise only to the extent that it is **probable** that future taxable profits will be available against which the deductible temporary difference can be utilised (IAS 12.24). Consider:
+  - Sufficient taxable temporary differences relating to the same taxation authority and the same taxable entity expected to reverse in the same period (or periods into which a tax loss can be carried back or forward).
+  - Whether it is probable that the entity will have taxable profits before the DTA expires.
+  - Tax planning opportunities.
+
+### Step 5: Measure at Enacted/Substantively Enacted Tax Rates
+
+- Measure DTAs and DTLs at the tax rates **expected to apply** in the period in which the asset is realised or the liability is settled (IAS 12.47).
+- Use rates enacted or **substantively enacted** by the reporting date.
+- Do **not** discount deferred tax assets or liabilities (IAS 12.53).
+- If different rates apply to different levels of taxable income, use the average rates expected to apply.
+
+### Step 6: Assess Uncertain Tax Positions (IFRIC 23)
+
+When there is uncertainty over whether the tax authority will accept a particular tax treatment:
+
+1. **Determine the unit of account** — consider each uncertain tax treatment separately or together with other uncertain tax treatments (whichever approach better predicts the resolution).
+2. **Detection assumption** — assume the tax authority will examine the amounts reported and have full knowledge of all related information.
+3. **Measurement:**
+   - If it is **probable** (>50%) that the tax authority will accept the treatment -> measure consistent with the tax filing position.
+   - If it is **not probable** -> measure the uncertainty using the **most likely amount** or the **expected value** method (whichever better predicts the resolution).
+
+### Step 7: Present and Disclose
+
+**Presentation:**
+- DTA and DTL are presented as **non-current** items (IAS 12.56).
+- Offset a DTA and DTL only when the entity has a legally enforceable right to set off and the amounts relate to income taxes levied by the same taxation authority on the same taxable entity (IAS 12.74).
+
+**Key disclosures (IAS 12.79-88):**
+- **Tax rate reconciliation:** Reconcile the tax expense to the accounting profit multiplied by the applicable tax rate(s), explaining each significant reconciling item.
+- **Movement schedule:** Disclose the amount and movement of DTAs and DTLs for each type of temporary difference, unused tax losses, and unused tax credits.
+- **Unrecognised DTAs:** Disclose the amount of deductible temporary differences, unused tax losses, and unused tax credits for which no DTA has been recognised, and the expiry dates (if any).
+- **Uncertain tax positions:** Disclose judgments and estimates made in applying IFRIC 23.
+
+### Example Journal Entries — Deferred Tax
+
+#### DTL Recognition (e.g., accelerated tax depreciation):
+
+**Facts:** Carrying amount of equipment = CU 800,000. Tax base = CU 600,000. Tax rate = 25%. Taxable temporary difference = CU 200,000.
+
+```
+DTL = 200,000 x 25% = CU 50,000
+
+Dr  Income Tax Expense (P&L)              50,000
+    Cr  Deferred Tax Liability                        50,000
+To recognise deferred tax liability arising from accelerated tax depreciation.
+```
+
+#### DTA Recognition (e.g., warranty provision):
+
+**Facts:** Warranty provision (carrying amount) = CU 150,000. Tax base = CU 0 (deductible when paid). Tax rate = 25%. Deductible temporary difference = CU 150,000. Probable future taxable profits are available.
+
+```
+DTA = 150,000 x 25% = CU 37,500
+
+Dr  Deferred Tax Asset                    37,500
+    Cr  Income Tax Expense (P&L)                      37,500
+To recognise deferred tax asset arising from warranty provision (deductible when paid).
+```
+
+#### DTA from Tax Losses Carried Forward:
+
+**Facts:** Tax losses of CU 500,000 available for carryforward. Tax rate = 25%. Probable that sufficient future taxable profits will be available.
+
+```
+DTA = 500,000 x 25% = CU 125,000
+
+Dr  Deferred Tax Asset                   125,000
+    Cr  Income Tax Expense (P&L)                     125,000
+To recognise deferred tax asset for tax losses carried forward.
+```
+
+**Related workflows:** IFRS 3 (deferred tax on fair value adjustments in business combinations), IFRS 16 (temporary differences from ROU assets and lease liabilities), IAS 36 (impairment may change temporary differences), IFRS 1 (deferred tax adjustments on transition).
+
+---
+
+## 7. Business Combinations (IFRS 3) — Acquisition Method Workflow
+
+### Step 1: Identify the Acquirer
+
+The acquirer is the entity that obtains **control** of the acquiree. Control is determined per **IFRS 10** — the acquirer has power over the acquiree, exposure or rights to variable returns, and the ability to use its power to affect those returns.
+
+In most cases, the acquirer is the entity that transfers consideration. However, consider:
+- Which entity initiated the combination.
+- Relative size of the entities.
+- Which entity's management dominates the combined entity.
+- In a share exchange, which entity issues the shares (the issuing entity is usually the acquirer, but apply substance over form — in a **reverse acquisition**, the legal subsidiary may be the acquirer for accounting purposes).
+
+### Step 2: Determine the Acquisition Date
+
+The acquisition date is the date on which the acquirer obtains **control** of the acquiree (IFRS 3.8-9). This is generally the **closing date** (the date the acquirer legally transfers consideration, acquires the assets, and assumes the liabilities), but may be earlier or later depending on the terms of the agreement.
+
+### Step 3: Recognise and Measure Identifiable Assets and Liabilities at Fair Value
+
+At the acquisition date, recognise **separately from goodwill** the identifiable assets acquired, liabilities assumed, and any non-controlling interest (NCI) in the acquiree (IFRS 3.10).
+
+**Recognition criteria (IFRS 3.11-12):**
+- The items must meet the definitions of assets and liabilities in the Conceptual Framework at the acquisition date.
+- They must be part of the exchange in the business combination (not the result of separate transactions).
+
+**Measurement:** Identifiable assets and liabilities are measured at their **acquisition-date fair values** (IFRS 3.18), with limited exceptions:
+- Income taxes — apply IAS 12.
+- Employee benefits — apply IAS 19.
+- Indemnification assets — measured on the same basis as the indemnified liability or asset.
+- Reacquired rights — measured based on remaining contractual term (no renewal assumptions).
+- Share-based payment awards — measured per IFRS 2.
+- Assets held for sale — measured per IFRS 5 (fair value less costs to sell).
+
+**Common identifiable intangible assets to recognise separately:**
+- Customer relationships, order backlogs.
+- Technology (patents, developed technology).
+- Brand names, trademarks.
+- Favourable/unfavourable contracts.
+- Non-compete agreements.
+
+### Step 4: Recognise and Measure Non-Controlling Interests (NCI)
+
+The acquirer has a **policy choice** (made on a transaction-by-transaction basis) to measure NCI at:
+
+| Method | Measurement | Goodwill Impact |
+|---|---|---|
+| **Full goodwill method** | NCI at **fair value** | Goodwill reflects both the parent's and NCI's share |
+| **Partial goodwill method** | NCI at **proportionate share of identifiable net assets** at fair value | Goodwill reflects only the parent's share |
+
+### Step 5: Determine Consideration Transferred
+
+Consideration transferred is measured at **acquisition-date fair value** and includes (IFRS 3.37):
+
+- Cash and cash equivalents.
+- Other assets transferred.
+- Liabilities incurred (e.g., deferred consideration).
+- **Equity interests issued** by the acquirer (measured at fair value at the acquisition date).
+- **Contingent consideration** — measured at acquisition-date fair value (IFRS 3.39).
+
+**Contingent consideration classification:**
+- If the acquirer's obligation to transfer additional assets or equity is conditional on future events, classify as a liability or equity:
+  - **Equity** — not subsequently remeasured.
+  - **Liability** — remeasured at fair value at each reporting date, with changes in fair value recognised in **profit or loss** (not as an adjustment to goodwill).
+
+### Step 6: Calculate Goodwill (or Bargain Purchase Gain)
+
+```
+Goodwill = Consideration transferred
+         + Amount of NCI (full or partial goodwill method)
+         + Fair value of previously held equity interest (in a step acquisition)
+         − Net identifiable assets acquired at fair value
+```
+
+| Result | Treatment |
+|---|---|
+| **Positive** (goodwill) | Recognise as an asset; do NOT amortise; test for impairment annually per IAS 36 |
+| **Negative** (bargain purchase / "negative goodwill") | Reassess whether all assets and liabilities have been correctly identified and measured. If the excess remains after reassessment, recognise the gain immediately in **profit or loss** (IFRS 3.34-36) |
+
+### Step 7: Measurement Period Adjustments (IFRS 3.45-50)
+
+- The measurement period is the period after the acquisition date during which the acquirer may adjust the provisional amounts recognised.
+- **Maximum duration: 12 months** from the acquisition date.
+- Adjustments must reflect **new information about facts and circumstances that existed at the acquisition date**.
+- Retrospective adjustment: adjust the provisional amounts as if the accounting had been completed at the acquisition date (including comparative information if applicable).
+- After the measurement period, adjustments are only made to correct errors per IAS 8.
+
+### Step 8: Post-Combination Accounting
+
+- **Acquisition-related costs** (due diligence, legal, advisory, finders' fees) are **expensed** as incurred in profit or loss (IFRS 3.53). They are NOT included in the consideration transferred. Exception: costs to issue debt or equity instruments are accounted for under IFRS 9 and IAS 32 respectively.
+- **Contingent consideration** classified as a liability is remeasured at fair value at each reporting date, with changes recognised in profit or loss.
+- **Pre-existing relationships** between acquirer and acquiree (e.g., supply contracts, lawsuits) are effectively settled as part of the combination and accounted for separately.
+- **Replacement share-based payment awards** — allocate between consideration transferred and post-combination expense based on vesting conditions.
+
+### Example Journal Entries — Business Combination
+
+**Facts:** Entity A acquires 100% of Entity B. Consideration transferred: cash of CU 5,000,000. Fair value of identifiable net assets of Entity B: CU 4,200,000 (assets CU 6,000,000, liabilities CU 1,800,000). No NCI. No previously held equity interest. Acquisition costs of CU 150,000.
+
+#### At Acquisition Date:
+
+```
+Recognise identifiable assets and liabilities at fair value:
+
+Dr  Identifiable Assets (at FV)        6,000,000
+    Cr  Identifiable Liabilities (at FV)            1,800,000
+    Cr  Cash (consideration)                        5,000,000
+To record the consideration transferred and recognise net identifiable assets.
+
+Recognise goodwill:
+
+Goodwill = 5,000,000 + 0 + 0 - 4,200,000 = CU 800,000
+
+Dr  Goodwill                              800,000
+    Cr  Retained Earnings / Balancing Entry          800,000
+To recognise goodwill as the excess of consideration over net identifiable assets at fair value.
+```
+
+**Combined entry (as typically recorded):**
+
+```
+Dr  Identifiable Assets (at FV)        6,000,000
+Dr  Goodwill                              800,000
+    Cr  Identifiable Liabilities (at FV)            1,800,000
+    Cr  Cash                                        5,000,000
+To record the acquisition of Entity B, recognising net identifiable assets at fair value
+and goodwill of CU 800,000.
+```
+
+#### Acquisition Costs:
+
+```
+Dr  Acquisition Costs Expense (P&L)      150,000
+    Cr  Cash / Payables                              150,000
+To expense acquisition-related costs (due diligence, legal, advisory) as incurred.
+```
+
+#### Bargain Purchase Example:
+
+**Facts:** Same as above, but fair value of identifiable net assets = CU 5,500,000 (assets CU 7,300,000, liabilities CU 1,800,000). Consideration = CU 5,000,000.
+
+```
+Bargain purchase gain = 5,500,000 - 5,000,000 = CU 500,000
+
+Dr  Identifiable Assets (at FV)        7,300,000
+    Cr  Identifiable Liabilities (at FV)            1,800,000
+    Cr  Cash                                        5,000,000
+    Cr  Gain on Bargain Purchase (P&L)                500,000
+To record the acquisition with a bargain purchase gain, after reassessing all
+identifiable assets and liabilities are correctly identified and measured.
+```
+
+**Related workflows:** IAS 12 (deferred tax on fair value adjustments), IAS 36 (annual goodwill impairment testing), IFRS 9 (contingent consideration remeasurement), IFRS 15 (revenue from acquired contracts).
 
 ---
 
