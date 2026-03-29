@@ -981,3 +981,630 @@ Search for the specific standard number (e.g., "IFRS 15" or "IAS 36") rather tha
 ---
 
 *Document prepared as a professional reference for accountants and auditors. Based on IFRS standards as issued by the IASB. Always refer to the full text of the relevant standard and any applicable jurisdiction-specific modifications for authoritative guidance.*
+---
+
+## IAS 23 — Borrowing Costs
+
+**Scope:** Applies to borrowing costs directly attributable to the acquisition, construction, or production of a qualifying asset. Excludes borrowing costs related to assets measured at fair value, inventories manufactured in large quantities on a repetitive basis, and biological assets within the scope of IAS 41.
+
+**Core principle:** Borrowing costs that are directly attributable to the acquisition, construction, or production of a qualifying asset must be capitalized as part of the cost of that asset. All other borrowing costs are expensed in the period incurred.
+
+**Key rules:**
+- **Qualifying asset:** An asset that necessarily takes a substantial period of time to get ready for its intended use or sale (e.g., self-constructed buildings, power plants, large inventories, intangible assets under development)
+  - No bright-line threshold for "substantial period" — judgment required; typically interpreted as at least 12 months
+- **Directly attributable borrowing costs:**
+  - Specific borrowings: actual borrowing costs incurred on that borrowing less any investment income on temporary investment of those funds
+  - General borrowings: apply a capitalization rate (weighted average cost of general borrowings outstanding) to expenditure on the asset
+- **Capitalization rate:** Weighted average of borrowing costs applicable to outstanding general borrowings; excludes borrowings taken out specifically for a qualifying asset
+- **Commencement of capitalization:** All three conditions must be met simultaneously:
+  - Expenditures on the asset are being incurred
+  - Borrowing costs are being incurred
+  - Activities necessary to prepare the asset for use or sale are in progress
+- **Suspension:** Capitalization is suspended during extended periods of active development being interrupted (not during brief interruptions or necessary delays)
+- **Cessation:** Capitalization stops when substantially all activities to prepare the asset for intended use or sale are complete; components of a multi-part asset cease capitalization when substantially complete
+- **Excess over recoverable amount:** Capitalized amount reduced to the asset's recoverable amount under IAS 36
+
+**Disclosure requirements:**
+- Amount of borrowing costs capitalized during the period
+- Capitalization rate used (when general borrowings are used)
+
+**Common pitfalls:**
+- Continuing to capitalize during genuine suspension of active development
+- Incorrectly including investment income from temporary investment of specific borrowings as a reduction in eligible costs rather than netting it against capitalized costs
+- Applying a capitalization rate to total asset expenditure rather than to the weighted average carrying amount of the qualifying asset during the period
+- Failing to cease capitalization when the asset is ready for use even if not yet in use
+
+**Related standards:** IAS 2 (inventories — qualifying assets), IAS 16 (PP&E — qualifying assets), IAS 36 (recoverable amount cap), IAS 38 (intangible assets under development), IAS 40 (investment property under construction)
+
+---
+
+## IAS 24 — Related Party Disclosures
+
+**Scope:** Applies to all entities presenting IFRS financial statements. Requires identification and disclosure of related party relationships and transactions, including outstanding balances and commitments. The government-related entity partial exemption applies to entities controlled, jointly controlled, or significantly influenced by a government.
+
+**Core principle:** Financial statements must disclose information about related party relationships, transactions, and outstanding balances — including commitments — that are necessary for users to understand the potential effect on the financial statements.
+
+**Key rules:**
+- **Related party definition — persons:** A person (or close family member) is related to the reporting entity if they:
+  - Control or jointly control the entity
+  - Have significant influence over the entity
+  - Are a member of key management personnel (KMP) of the entity or its parent
+- **Related party definition — entities:** An entity is related to the reporting entity if:
+  - It is a parent, subsidiary, fellow subsidiary, or associate
+  - It is a joint venture of the entity or of a group member
+  - It is controlled or jointly controlled by a person identified above
+  - A person with significant influence over the entity (or close family member) controls it
+  - It has a post-employment benefit plan for employees of either entity
+  - Note: Two associates of the same investor are NOT related to each other solely for that reason
+- **Key management personnel (KMP):** Persons having authority and responsibility for planning, directing, and controlling the activities of the entity, including any director (executive or non-executive)
+- **Government-related entity exemption:** An entity related to a government may apply a partial exemption, disclosing only the nature of its relationship, the fact transactions are government-related, and sufficient qualitative/quantitative information — rather than full detail of each transaction
+- **Arm's length assertion:** Entities may NOT assert that related party transactions were on arm's length terms unless that claim can be substantiated
+
+**Disclosure requirements:**
+- Name of parent and ultimate controlling party (even if no transactions occurred)
+- Compensation of KMP in total and split by category (short-term employee benefits, post-employment, other long-term, termination, share-based payment)
+- For each category of related party: nature of the relationship, amounts of transactions, outstanding balances and their terms, provisions for doubtful debts, bad debt expense
+- Guarantees given or received
+- Commitments with related parties
+
+**Common pitfalls:**
+- Omitting transactions with entities under common control of KMP's family members
+- Disclosing only net amounts rather than gross transaction amounts
+- Asserting arm's length terms without substantiation
+- Failing to identify post-employment benefit plans as related parties
+- Missing the ultimate controlling party disclosure when it differs from the immediate parent
+
+**Related standards:** IFRS 10 (consolidated financial statements — control definition), IFRS 11 (joint arrangements), IAS 27 (separate financial statements), IAS 28 (associates)
+
+---
+
+## IAS 26 — Accounting and Reporting by Retirement Benefit Plans
+
+**Scope:** Applies to the financial statements of retirement benefit plans themselves (i.e., the plan as a reporting entity), not to the employer entity's financial statements. Covers both defined contribution and defined benefit plans. Does not apply to employee benefit costs as reported by employers (that is IAS 19).
+
+**Core principle:** Financial statements of a retirement benefit plan must provide information about the plan's resources and activities that is useful to assess the plan's ability to meet its obligations to current and future beneficiaries.
+
+**Key rules:**
+- **Defined contribution plans:**
+  - Report a statement of net assets available for benefits
+  - Report a description of the funding policy
+  - Investments reported at fair value (for marketable securities, fair value is market value)
+- **Defined benefit plans:**
+  - Report a statement of net assets available for benefits
+  - Report a statement of changes in net assets available for benefits
+  - Actuarial present value of promised retirement benefits (distinguishing between vested and non-vested) must be disclosed, either:
+    - In the financial statements, or
+    - In an accompanying actuarial report cross-referenced to the financial statements
+  - If actuarial valuation not obtained at reporting date, must use most recent valuation as a basis and disclose the date
+  - Investments: reported at fair value; for plan assets, market value is used; if fair value cannot be estimated, disclosure of reason and range in which fair value likely falls
+- **Actuarial present value of promised benefits:** Based on benefits promised under the plan's terms using either:
+  - Current salary levels, or
+  - Projected salary levels — method chosen must be disclosed
+- **Relationship between net assets and actuarial present value:** If actuarial present value exceeds net assets available, the plan is in deficit — this relationship must be transparent in the financial statements
+
+**Disclosure requirements:**
+- Statement of changes in net assets available for benefits (contributions, investment income, benefits paid, expenses, gains/losses on investments)
+- Summary of significant accounting policies, particularly investment valuation basis
+- Description of the plan and any changes during the period
+- Description of any investment policies
+- For defined benefit: actuarial assumptions, method used, date of most recent actuarial valuation
+
+**Common pitfalls:**
+- Confusing IAS 26 (plan's own financial statements) with IAS 19 (employer accounting)
+- Using cost rather than fair value for plan investments
+- Omitting the actuarial present value disclosure or failing to cross-reference an actuarial report
+- Not disclosing whether projected or current salaries were used in actuarial valuations
+
+**Related standards:** IAS 19 (employee benefits — employer perspective), IFRS 13 (fair value measurement of plan assets)
+
+---
+
+## IAS 27 — Separate Financial Statements
+
+**Scope:** Applies when an entity elects to or is required by local regulation to present separate financial statements. Separate financial statements are those presented in addition to (or instead of, for certain investment entities) consolidated financial statements. Does not apply to consolidated financial statements (IFRS 10) or equity method accounting in consolidated statements (IAS 28).
+
+**Core principle:** In separate financial statements, investments in subsidiaries, associates, and joint ventures must be accounted for either at cost, in accordance with IFRS 9 (fair value), or using the equity method — with the same method applied to each category of investment.
+
+**Key rules:**
+- **Three permitted measurement methods for investments:**
+  - Cost method: dividends recognized as income when the right to receive is established; no adjustment for the investee's post-acquisition profits
+  - IFRS 9 (fair value): changes in fair value through profit or loss or OCI (for equity instruments designated at FVOCI)
+  - Equity method (per IAS 28): share of investee's profit/loss and OCI recognized; permitted but not required
+- **Consistency requirement:** Once a method is chosen for a category (e.g., subsidiaries), it must be applied consistently to all investments within that category
+- **Dividends:** Under cost method, dividends received are income; entity must assess whether the dividend indicates an impairment of the investment (i.e., dividend exceeds total comprehensive income of the subsidiary)
+- **Investment entities:**
+  - An investment entity (as defined in IFRS 10) measures subsidiaries at fair value through profit or loss in both consolidated and separate financial statements
+  - Exception: subsidiaries that provide investment-related services are consolidated (not measured at FVTPL)
+- **Reorganizations:** When parent inserts a new entity above an existing group structure under specific conditions (same ultimate shareholders, no change in rights), the new parent measures investments at the carrying amount of equity items of the original parent
+- **Identification:** Separate financial statements must be clearly identified as such and distinguished from consolidated financial statements
+
+**Disclosure requirements:**
+- Fact that the financial statements are separate financial statements
+- List of significant investments (subsidiaries, associates, joint ventures): name, registered office, country of incorporation, proportion of ownership and voting rights held
+- Accounting method used for each category of investments
+- If an entity is exempt from consolidation (IFRS 10), the name and principal place of business of the entity that produces consolidated financial statements
+- For investment entities: description of nature of the entity, significant judgments in applying the investment entity definition
+
+**Common pitfalls:**
+- Using different measurement methods for different subsidiaries within the same category
+- Recognizing dividends from subsidiaries as income under cost method without assessing whether they indicate impairment
+- Confusing cost method with equity method treatment
+- Failing to identify the financial statements clearly as "separate financial statements"
+
+**Related standards:** IFRS 10 (consolidated financial statements), IFRS 11 (joint arrangements), IAS 28 (equity method), IFRS 9 (financial instruments — fair value option), IFRS 13 (fair value)
+
+---
+
+## IAS 28 — Investments in Associates and Joint Ventures
+
+**Scope:** Applies to investments in associates and investments in joint ventures. Does not apply to investments held by venture capital organizations, mutual funds, unit trusts, and similar entities that are measured at FVTPL under IFRS 9 (these entities may elect exemption). Also applies to how the equity method is applied in both consolidated and separate financial statements.
+
+**Core principle:** An investment in an associate or joint venture must be accounted for using the equity method, unless an exemption applies, because the investor has significant influence (or joint control) that creates a relationship closer than a simple financial asset.
+
+**Key rules:**
+- **Significant influence:** Presumed when holding 20%–50% of voting rights, unless clearly demonstrated otherwise; can exist below 20% with evidence (board representation, participation in policy-making, material transactions, interchange of managerial personnel, provision of essential technical information)
+- **Equity method mechanics:**
+  - Initial recognition at cost
+  - Subsequently: carrying amount adjusted for the investor's share of profit or loss (recognized in P&L) and other comprehensive income (recognized in OCI)
+  - Distributions received reduce the carrying amount
+  - Upstream and downstream transactions: profits/losses eliminated to the extent of the investor's interest (unrealized profits on sales between investor and associate)
+  - Excess losses: once carrying amount is reduced to zero, investor stops recognizing further losses unless it has incurred legal or constructive obligations or made payments on behalf of the associate
+- **Goodwill:** Any goodwill relating to an associate or joint venture is included in the carrying amount and is not separately tested for impairment (but the entire carrying amount is tested under IAS 36)
+- **Accounting policies:** If the associate uses different accounting policies, adjustments must be made unless impracticable
+- **Reporting dates:** If the associate's financial statements are drawn up to a different date, the investor uses the most recent financial statements; the difference must be no more than three months; adjustments for significant transactions in the intervening period
+- **Exemptions from equity method (use IFRS 9 instead):**
+  - Investor is a parent exempt from preparing consolidated financial statements under IFRS 10
+  - Investment is held for sale (IFRS 5)
+  - The investor itself is a wholly-owned or partially-owned subsidiary and certain conditions are met
+- **Impairment:** Apply IAS 36 to test the entire carrying amount of the investment as a single asset (not individual components); loss recognized in P&L, reversed if conditions change
+
+**Disclosure requirements:**
+- Fair value of investments in associates/joint ventures with quoted prices
+- Summarized financial information for each material associate/joint venture (assets, liabilities, revenue, profit/loss, OCI, dividends received)
+- Nature and extent of significant restrictions on ability to transfer funds
+- Unrecognized losses for the period and cumulatively
+- Share of contingent liabilities of associates
+- Reasons if 20–50% holding does not give significant influence, or why <20% does
+
+**Common pitfalls:**
+- Continuing to recognize losses once the carrying amount reaches zero without legal/constructive obligations
+- Failing to eliminate unrealized profits on intercompany transactions
+- Using the associate's unadjusted financial statements when accounting policies differ
+- Treating goodwill embedded in the equity-accounted carrying amount as separately testable
+- Missing the impracticability threshold for aligning accounting policies
+
+**Related standards:** IFRS 3 (business combinations — initial measurement concepts), IFRS 5 (assets held for sale), IFRS 9 (financial instruments — fair value alternative), IFRS 10 (consolidated financial statements), IFRS 11 (joint arrangements), IFRS 12 (disclosures), IAS 27 (separate financial statements), IAS 36 (impairment)
+
+---
+
+## IAS 29 — Financial Reporting in Hyperinflationary Economies
+
+**Scope:** Applies when an entity's functional currency is the currency of a hyperinflationary economy. Applies to the financial statements (including consolidated financial statements) of any entity whose functional currency is hyperinflationary. There is no absolute rate of inflation that establishes hyperinflation; judgment is required based on qualitative and quantitative indicators.
+
+**Core principle:** Financial statements of an entity that reports in the currency of a hyperinflationary economy must be stated in terms of the measuring unit current at the balance sheet date — i.e., all amounts restated to the current purchasing power unit — and the gain or loss on the net monetary position recognized in profit or loss.
+
+**Key rules:**
+- **Indicators of hyperinflation** (not exhaustive; judgment required):
+  - The general population prefers to keep wealth in non-monetary assets or stable foreign currency
+  - Prices are quoted in a stable foreign currency
+  - Credit transactions use prices that compensate for expected purchasing power loss
+  - Interest rates, wages, and prices are linked to a price index
+  - Cumulative three-year inflation rate approaches or exceeds 100%
+- **Restatement of historical cost financial statements:**
+  - Non-monetary items (PP&E, inventories, equity items, revenue/expense at historical transaction dates): restated by applying a general price index from the date of acquisition/transaction to the balance sheet date
+  - Monetary items (cash, receivables, payables): already expressed in current measuring unit; NOT restated but give rise to monetary gain or loss
+  - Monetary gain or loss = the net effect of holding monetary assets and liabilities during a period of inflation; recognized in P&L (IAS 29 requires separate disclosure)
+  - Opening equity restated from transaction dates using general price index
+  - All items in the income statement and cash flow statement restated to current measuring unit using the price index at the transaction date (or average rate as an approximation if inflation was roughly even)
+- **Restatement of current cost financial statements:** Non-monetary items already at current cost are not further restated; other procedures same as above
+- **Consolidated financial statements:** Subsidiary in hyperinflationary economy: restate its financial statements before including in the consolidation (even if parent is not hyperinflationary); then translate using the closing exchange rate
+- **Comparatives:** Prior period comparatives restated to the current period measuring unit (not presented in the original measuring unit)
+- **When hyperinflation ceases:** Cease applying IAS 29; amounts expressed in current measuring unit at the date of cessation become the new historical cost basis
+
+**Disclosure requirements:**
+- Fact that financial statements and prior period comparatives have been restated for changes in purchasing power
+- Whether the financial statements are based on historical cost or current cost approach
+- Identity and level of the price index at the balance sheet date and the movement during the period
+- Gain or loss on net monetary position (usually in P&L or as a separate line)
+
+**Common pitfalls:**
+- Failing to identify hyperinflation early — waiting for the 100% threshold rather than using qualitative indicators
+- Restating monetary items (which are already in current units)
+- Using an exchange rate instead of a domestic price index for restatement
+- Presenting prior period comparatives in original nominal terms rather than restated current-period units
+- After cessation, reverting to historical costs at the original amounts instead of using the restated carrying amounts as the new deemed cost
+
+**Related standards:** IAS 21 (effects of changes in foreign exchange rates — translation of hyperinflationary subsidiaries), IFRS 13 (fair value), IAS 36 (impairment of restated assets)
+
+---
+
+## IAS 32 — Financial Instruments: Presentation
+
+**Scope:** Applies to the classification of financial instruments as financial liabilities or equity, to the presentation of compound instruments, and to the offsetting of financial assets and liabilities. Does NOT address recognition, measurement, or hedge accounting (those are IFRS 9). Applies from the issuer's perspective.
+
+**Core principle:** The classification of a financial instrument as a financial liability or equity must be based on the substance of the contractual arrangement and the economic reality, not legal form. A financial instrument is equity only if the issuer has no contractual obligation to deliver cash or another financial asset, and settlement in the issuer's own equity instruments meets specific criteria.
+
+**Key rules:**
+- **Liability vs. equity classification — the fundamental test:**
+  - Financial liability: instrument gives rise to a contractual obligation to deliver cash or another financial asset, OR to exchange financial instruments under potentially unfavourable conditions
+  - Equity: residual interest after deducting all liabilities; NO contractual obligation to deliver cash or other financial assets
+  - Preference shares: classified as liabilities if they carry mandatory dividend payments or mandatory redemption (regardless of being called "shares")
+  - Perpetual debt: may be equity if there is genuinely no obligation to repay
+- **Puttable instruments:** Classified as equity only if they meet strict conditions under IAS 32.16A–16D (reclassification from liability to equity exception)
+- **Contingent settlement provisions:** If settlement depends on uncertain future events beyond the control of both parties, the instrument is a liability (unless the contingency is extremely rare, highly abnormal, or remote)
+- **Compound financial instruments (split accounting):**
+  - Instruments with both liability and equity components (e.g., convertible bonds) must be split on initial recognition
+  - Liability component = present value of contractual cash flows discounted at the market rate for a comparable non-convertible instrument
+  - Equity component = residual (total proceeds minus liability component); no subsequent remeasurement of the equity component
+  - Transaction costs allocated proportionately between liability and equity components
+  - On conversion: derecognize the liability, reclassify equity component — no gain or loss
+- **Treasury shares:** Own equity instruments reacquired must be deducted from equity; no gain or loss recognized on purchase, sale, issue, or cancellation of treasury shares; consideration paid/received is recognized directly in equity
+- **Interest, dividends, gains and losses:**
+  - Payments on instruments classified as financial liabilities: recognized in P&L (interest expense)
+  - Payments on instruments classified as equity: distributions from equity, not expense
+- **Offsetting financial assets and liabilities:**
+  - Present net only when BOTH conditions are met:
+    - Legally enforceable right to set off the amounts, AND
+    - Intention to settle net OR realize the asset and settle the liability simultaneously
+  - Master netting agreements alone do NOT meet the offsetting criteria unless both conditions are satisfied
+
+**Disclosure requirements:**
+- The nature and extent of risks arising from financial instruments (detailed disclosures required by IFRS 7, not IAS 32 itself)
+- For compound instruments: the carrying amounts of the liability and equity components
+- Terms and conditions of equity instruments
+
+**Common pitfalls:**
+- Classifying preference shares as equity merely because they are called "shares" — must assess contractual obligations
+- Forgetting to split compound instruments at inception and not tracking the unamortized discount on the liability component
+- Assuming a master netting agreement permits offsetting — it only does if real-time simultaneous settlement is intended or the legal right is currently enforceable in all circumstances
+- Treating the equity component of a convertible bond as a liability when conversion is probable
+- Recognizing gain or loss on repurchase of own equity instruments
+
+**Related standards:** IFRS 7 (financial instruments disclosures), IFRS 9 (financial instruments — recognition and measurement), IFRS 2 (share-based payment — instruments to deliver own equity)
+
+---
+
+## IAS 33 — Earnings Per Share
+
+**Scope:** Applies to entities whose ordinary shares (or potential ordinary shares) are publicly traded, and to entities that are in the process of issuing such instruments. Other entities that disclose EPS voluntarily must comply with IAS 33 in full. Applies to individual and consolidated financial statements; where consolidated are presented, EPS is based on consolidated data.
+
+**Core principle:** EPS provides a measure of the return attributable to each ordinary share. Basic EPS reflects actual shares outstanding; diluted EPS reflects the maximum potential dilution from convertible instruments, options, and warrants, giving users a "worst-case" picture of per-share earnings.
+
+**Key rules:**
+- **Basic EPS:**
+  - Numerator: profit or loss attributable to ordinary equity holders of the parent, after deducting preference dividends (including undeclared cumulative preference dividends) and other adjustments for non-ordinary instruments
+  - Denominator: weighted average number of ordinary shares outstanding during the period
+  - Bonus issues / stock splits: treated as if they occurred at the beginning of the earliest period presented (retrospective adjustment; no time-weighting)
+  - Rights issues at below-market price: contains a bonus element; use a theoretical ex-rights price to restate prior periods
+- **Diluted EPS:**
+  - Numerator: adjusted for after-tax effect of dividends/interest on dilutive potential ordinary shares and other adjustments
+  - Denominator: weighted average shares plus weighted average dilutive potential ordinary shares (options, warrants, convertibles, contingently issuable shares)
+  - Options/warrants: treasury share method — only the incremental shares (proceeds assumed to buy back shares at average market price) are added; out-of-the-money options are anti-dilutive
+  - Convertible instruments: "if converted" method — add back after-tax interest on convertibles; add all shares that would result from conversion from the beginning of the period (or issue date if later)
+  - Anti-dilutive instruments: EXCLUDED from diluted EPS (must disclose their existence)
+  - Order of dilution: instruments ranked from most dilutive to least dilutive (incremental EPS method); include in sequence until cumulative EPS is no longer declining
+- **Contingently issuable shares:** Included in diluted EPS if conditions are currently satisfied; included in basic EPS only when all conditions are met and shares are actually issued
+- **Restatement:** If share transactions occur after the reporting date but before financial statements are authorized, EPS is recalculated for all periods presented
+- **Presentation:** Basic and diluted EPS for continuing operations and for total profit/loss (including discontinued) must be presented on the face of the income statement with equal prominence
+
+**Disclosure requirements:**
+- Basic and diluted EPS on the face of the statement of comprehensive income (or income statement)
+- Numerators used (reconciled to profit/loss) and denominators (shares)
+- Instruments that could potentially dilute basic EPS in the future but were anti-dilutive in the current period
+- Description of transactions after the reporting date that would have changed EPS materially
+
+**Common pitfalls:**
+- Including anti-dilutive instruments in diluted EPS calculations (this increases EPS, which is not "dilution")
+- Failing to adjust the prior period comparatives for bonus issues or share splits
+- Incorrect treatment of the bonus element in a rights issue (using full proceeds rather than theoretical ex-rights price)
+- Omitting the adjustment for cumulative preference dividends even when not declared
+- Using end-of-period shares rather than the weighted average for basic EPS
+
+**Related standards:** IFRS 5 (discontinued operations — EPS must show contribution), IAS 32 (classification of preference shares affects EPS numerator), IFRS 2 (share-based payment — dilution from options)
+
+---
+
+## IAS 34 — Interim Financial Reporting
+
+**Scope:** Applies when an entity is required or elects to publish interim financial reports. Does not mandate which entities must present interim reports or how frequently — that is determined by securities regulators or other authorities. IAS 34 sets the minimum content and recognition/measurement principles for such reports.
+
+**Core principle:** Interim financial reports must provide an update on the most recent annual financial statements, focusing on new activities, events, and circumstances. The same recognition and measurement principles applied in annual financial statements must be applied in interim periods.
+
+**Key rules:**
+- **Minimum content (condensed interim financial report):**
+  - Condensed statement of financial position
+  - Condensed statement of comprehensive income (or separate income statement)
+  - Condensed statement of changes in equity
+  - Condensed statement of cash flows
+  - Selected explanatory notes
+  - If a complete set is presented, it must conform to all IFRS requirements
+- **Comparative periods:**
+  - Balance sheet: current period-end vs. most recent annual year-end
+  - Income statement: current interim period and YTD vs. comparable periods of preceding year
+  - Cash flow: YTD vs. comparable YTD of preceding year
+  - Changes in equity: YTD vs. comparable YTD of preceding year
+- **Discrete vs. integral approach:**
+  - IAS 34 requires the discrete approach: each interim period is treated as a discrete accounting period
+  - Revenues are recognized when earned; costs are accrued when incurred — NOT deferred/anticipated solely because of the annual accounting period
+- **Taxes:** Use the estimated annual effective tax rate to determine the tax expense for the interim period (exception to strict discrete approach — anticipation of full-year tax is required)
+- **Year-end bonuses, seasonal revenues:** Recognized on the same basis as annual (do not smooth or defer)
+- **Materiality:** Assessed in relation to interim period financial data, not the expected full-year data
+- **Changes in accounting policy:** Applied retrospectively; restate all prior period interim data presented
+- **Estimates:** If an estimate made in an interim period is revised in a subsequent interim period in the same year, recognize in the period of change; do NOT restate prior interim periods (prospective treatment within the year)
+- **Fourth quarter:** No separate fourth-quarter report required, but significant events between the third quarter and year-end must be disclosed in the annual financial statements
+
+**Disclosure requirements:**
+- Significant events and transactions (including seasonality/cyclicality, unusual items, changes in estimates, dividends, segment information, acquisitions/disposals, changes in accounting policy)
+- Statement that the same accounting policies as the most recent annual report have been applied (or description of any changes)
+- Comparative figures as required
+- Explanation of seasonality or cyclicality of operations
+
+**Common pitfalls:**
+- Deferring costs in early interim periods that are expected to benefit later periods (not permitted — costs expensed when incurred)
+- Anticipating revenues not yet earned at interim date to smooth annual results
+- Using year-to-date materiality rather than interim period materiality
+- Restating prior interim periods for changes in estimates (should be prospective within the year)
+- Omitting segment disclosures required by IFRS 8 in condensed interim reports
+
+**Related standards:** IFRS 8 (operating segments — segment disclosures required), IAS 12 (income taxes — annual effective tax rate method), IAS 36 (impairment — cannot reverse impairment recognized at interim date in subsequent interim period of same year)
+
+---
+
+## IAS 36 — Impairment of Assets
+
+**Scope:** Applies to impairment testing of most non-financial assets, including PP&E, right-of-use assets, investment property carried at cost, intangible assets, goodwill, investments in subsidiaries/associates/JVs, and assets under construction. Key exclusions: financial assets (IFRS 9), investment property at fair value (IAS 40), biological assets at fair value (IAS 41), deferred tax assets (IAS 12), employee benefit plan assets (IAS 19), and most non-current assets held for sale (IFRS 5).
+
+**Core principle:** An asset must not be carried at more than its recoverable amount. If the carrying amount exceeds the recoverable amount, an impairment loss must be recognized immediately. Recoverable amount is the higher of fair value less costs of disposal (FVLCOD) and value in use (VIU).
+
+**Key rules:**
+- **Indications of impairment** (trigger review required at each reporting date):
+  - External: significant decline in market value, adverse changes in technology/market/economy/law, increase in market interest rates, market capitalization below net assets
+  - Internal: evidence of obsolescence, physical damage, significant changes in use or performance below expectation, worse-than-expected economic performance
+  - Goodwill, indefinite-life intangibles, and intangibles not yet available for use: tested annually regardless of indicators
+- **Recoverable amount:**
+  - FVLCOD: price from an orderly transaction between market participants less incremental costs to sell (per IFRS 13 fair value hierarchy); excludes financing costs and tax
+  - VIU: present value of future cash flows expected from the asset in its current condition and intended use
+    - Cash flow projections: based on reasonable assumptions, maximum 5-year management budgets/forecasts (beyond 5 years, extrapolate using a steady or declining growth rate — growth rate must not exceed long-term average for country/industry)
+    - Exclude financing cash flows and income taxes
+    - Discount rate: pre-tax rate reflecting current market assessments of time value of money and asset-specific risks; may start from a WACC and adjust; must be consistent with how cash flows are estimated
+    - Terminal value using a Gordon Growth Model or exit multiple is common but the growth rate cap applies
+- **Cash-generating units (CGUs):**
+  - Smallest identifiable group of assets generating cash inflows that are largely independent of other assets
+  - Asset tested at CGU level if individual asset's recoverable amount cannot be determined
+  - CGU boundaries must be consistent period to period
+  - CGU must not be larger than an operating segment (before any aggregation) per IFRS 8
+- **Goodwill allocation:**
+  - Goodwill must be allocated to CGUs (or groups of CGUs) that are expected to benefit from the synergies of the combination
+  - Each such CGU represents the lowest level at which goodwill is monitored internally and must not be larger than an operating segment
+  - Tested annually (and whenever there is an indicator) by comparing the carrying amount of the CGU (including goodwill) with its recoverable amount
+  - Impairment loss on a CGU: first reduces goodwill to zero, then allocated pro-rata to other assets (but not below the highest of FVLCOD, VIU, or zero)
+- **Corporate assets:** Cannot generate cash flows independently; allocate to CGUs on a reasonable and consistent basis; if cannot be fully allocated, test the smallest group of CGUs that includes the corporate asset
+- **Recognition of impairment loss:**
+  - Single asset: recognized in P&L (or in OCI to the extent of a previous revaluation surplus for revalued assets under IAS 16/IAS 38)
+  - CGU: reduce goodwill first, then other assets pro-rata
+- **Reversal of impairment:**
+  - Allowed for individual assets and CGUs (other assets within CGU) if there is an indication that the loss may have decreased
+  - Reversal: increased carrying amount must not exceed what the depreciated/amortized carrying amount would have been without the impairment
+  - Goodwill impairment: NEVER reversed
+
+**Disclosure requirements:**
+- For each class of assets: impairment losses and reversals recognized, their location in the income statement
+- For material impairment/reversals: description of the asset/CGU, events leading to the impairment, amount, FVLCOD or VIU approach used
+- For CGUs with significant goodwill or indefinite-life intangibles: carrying amount, description of key assumptions, approach to determining values (growth rates, discount rate), sensitivity analysis if reasonable change in assumption would cause further impairment
+
+**Common pitfalls:**
+- Using post-tax cash flows with a post-tax discount rate inconsistently (IAS 36 requires pre-tax; the pre-tax and post-tax approaches should give the same answer only if applied correctly)
+- Using a growth rate in the terminal value that exceeds the long-term average
+- Failing to test goodwill annually and only testing on indicators
+- Reversing goodwill impairment losses (never permitted)
+- Allocating impairment losses below an asset's FVLCOD or VIU
+- Not splitting a CGU when operations or monitoring has changed
+
+**Related standards:** IFRS 3 (goodwill recognition), IFRS 5 (held for sale — impairment rules differ), IFRS 8 (segment reporting — CGU size limit), IFRS 13 (fair value measurement for FVLCOD), IAS 16 (PP&E — revaluation surplus), IAS 38 (intangible assets)
+
+---
+
+## IAS 37 — Provisions, Contingent Liabilities and Contingent Assets
+
+**Scope:** Applies to provisions (liabilities of uncertain timing or amount), contingent liabilities, and contingent assets. Key exclusions: financial instruments at fair value (IFRS 9), executory contracts (unless onerous), insurance contracts (IFRS 17), items covered by other standards (e.g., income taxes — IAS 12, leases — IFRS 16, employee benefits — IAS 19, construction contracts — IFRS 15).
+
+**Core principle:** A provision must be recognized when, and only when: (1) an entity has a present obligation (legal or constructive) as a result of a past event; (2) it is probable (more likely than not) that an outflow of resources embodying economic benefits will be required; and (3) a reliable estimate can be made of the amount. Provisions are distinguished from other liabilities because there is uncertainty about timing or amount.
+
+**Key rules:**
+- **Three recognition criteria — all must be met:**
+  - Present obligation (legal or constructive) arising from a past obligating event
+  - Probable outflow (more likely than not > 50%)
+  - Reliable estimate possible (only in extremely rare circumstances will this not be possible)
+- **Legal vs. constructive obligation:**
+  - Legal: arising from a contract, legislation, or other operation of law
+  - Constructive: entity has created a valid expectation through established pattern of past practice, published policies, or specific statements
+- **Measurement:**
+  - Best estimate of expenditure required to settle the obligation at the reporting date
+  - For a large population of items (e.g., warranty provisions): use expected value (probability-weighted average)
+  - For a single obligation: use the most likely outcome, but consider other possible outcomes
+  - Reflect risks and uncertainties; do not double-count
+  - Discount to present value when the time value of money is material (use pre-tax risk-free rate; do not include risks already reflected in cash flows)
+  - Future events (e.g., new legislation, technological changes): taken into account only when there is sufficient objective evidence they will occur
+  - Expected disposal of assets: NOT included in measurement of a provision (even if tied to the obligating event) — account for separately under IFRS 5/IAS 16
+- **Reimbursements:** A reimbursement (e.g., insurance proceeds) is recognized as a separate asset only when virtually certain to be received; offset against provision expense only in P&L presentation; the gross provision is not reduced
+- **Onerous contracts:** When unavoidable costs of meeting contractual obligations exceed economic benefits — recognize a provision for the lower of the cost of fulfilling the contract and any compensation/penalties from failing to fulfill it; before recognizing, impair any dedicated assets (IAS 36)
+- **Restructuring provisions:** Only when: (1) detailed formal plan exists identifying the business/locations, employees affected, expenditures, and implementation timeline; AND (2) the entity has raised a valid expectation in those affected (announcement or commencement). Future operating losses are NOT included in restructuring provisions.
+- **Contingent liabilities:** Possible obligation (not probable) or present obligation not probable or cannot be reliably estimated — disclose in notes only; do NOT recognize on balance sheet
+- **Contingent assets:** Possible assets from past events; disclose only when inflow is probable (more likely than not); do not recognize unless inflow is virtually certain (at which point it is no longer contingent)
+- **Reviews:** Provisions must be reviewed at each reporting date and adjusted to reflect the current best estimate; if outflow is no longer probable, provision is reversed
+
+**Disclosure requirements:**
+- For each class of provision: carrying amount at start and end, additions, amounts used, reversals, discounting effect; description of nature, timing, amount uncertainty, and reimbursement rights
+- For contingent liabilities: nature, estimate of financial effect, uncertainties, possibility of reimbursement
+- For contingent assets: nature and estimate of financial effect (if probable)
+- In extremely rare cases, information may be omitted if its disclosure would seriously prejudice the entity in a dispute — must disclose the general nature and reason for omission
+
+**Common pitfalls:**
+- Recognizing provisions for future operating losses (not permitted — no obligation until loss is incurred)
+- Recognizing provisions based on management intent rather than past obligating events
+- Netting reimbursements against provisions on the balance sheet
+- Including future operating costs in restructuring provisions
+- Failing to discount long-term provisions when the time value of money is material
+- Recognizing contingent assets before inflow is virtually certain
+
+**Related standards:** IAS 10 (events after the reporting period — clarifying provisions), IAS 12 (income taxes — excluded), IAS 19 (employee benefits — excluded), IFRS 9 (financial guarantees — some may be provisions), IFRS 15 (revenue — onerous contracts overlap), IFRS 16 (leases — onerous lease contracts)
+
+---
+
+## IAS 38 — Intangible Assets
+
+**Scope:** Applies to intangible assets not covered by other standards. Key exclusions: financial assets (IFRS 9), exploration and evaluation assets (IFRS 6), mineral rights and reserves, intangible assets arising from insurance contracts (IFRS 17), deferred acquisition costs and intangible assets in the scope of IFRS 17. Goodwill from business combinations is within IFRS 3, not IAS 38.
+
+**Core principle:** An intangible asset is recognized when, and only when, it is probable that expected future economic benefits attributable to the asset will flow to the entity, and the cost can be measured reliably. The intangible asset must also meet the definition: it must be identifiable, non-monetary, and without physical substance.
+
+**Key rules:**
+- **Definition criteria:**
+  - Identifiable: separable (capable of being separated and sold, transferred, licensed) OR arising from contractual or other legal rights
+  - Controlled by the entity (power to obtain benefits and restrict others)
+  - Future economic benefits attributable to the asset
+- **Separate acquisition:** Presumed that the probability criterion is always satisfied; recognized at cost
+- **Business combination:** Recognized at fair value at acquisition date (IFRS 3); probability criterion deemed satisfied; recognized separately from goodwill if definition met
+- **Internally generated intangibles — the 6 capitalization criteria (development phase):** ALL must be met to capitalize:
+  1. Technical feasibility of completing the intangible asset
+  2. Intention to complete and use/sell it
+  3. Ability to use or sell it
+  4. How the asset will generate probable future economic benefits (e.g., existence of a market)
+  5. Availability of adequate technical, financial, and other resources to complete development
+  6. Ability to reliably measure expenditure attributable to the asset during development
+- **Research phase:** ALL research expenditure must be expensed as incurred; if the entity cannot distinguish research from development, treat the entire project as research
+- **Internally generated brands, mastheads, publishing titles, customer lists, and similar items:** NEVER recognized as intangible assets (cannot be distinguished from the cost of developing the business as a whole)
+- **Subsequent measurement:**
+  - Cost model: cost less accumulated amortization less accumulated impairment losses
+  - Revaluation model: permitted only if an active market exists for that type of intangible (rare in practice); revalued to fair value less subsequent amortization and impairment
+- **Useful life:**
+  - Finite useful life: amortize over useful life; method reflects pattern of consumption of economic benefits (straight-line is default if pattern cannot be reliably determined); residual value presumed zero unless commitment from a third party or active market
+  - Indefinite useful life: NO amortization; test for impairment annually and whenever there is an indicator; reassess each year whether indefinite life assessment remains appropriate
+- **De-recognition:** When disposed of or when no future economic benefits are expected from use or disposal; gain/loss in P&L (not revenue)
+- **Advertising and training expenditure:** Always expensed as incurred (even if future benefit is expected — the entity does not control the asset)
+- **Website development costs:**
+  - Planning stage: expense
+  - Application/infrastructure development, graphical design, content development (that generates economic benefits): capitalize if criteria met
+  - Operating stage: expense
+
+**Disclosure requirements:**
+- For each class: gross carrying amount, accumulated amortization and impairment; useful life or amortization rate; method; reconciliation of carrying amount
+- Significant individual intangible assets: description, carrying amount, remaining amortization period
+- For intangibles with indefinite useful lives: carrying amount, reasons supporting the indefinite assessment
+- R&D expenditure recognized as expense during the period
+- For revaluation model: effective date of revaluation, carrying amount under cost model, revaluation surplus
+
+**Common pitfalls:**
+- Capitalizing research expenditure or failing to separate research from development phases
+- Capitalizing internally generated brands or customer lists
+- Applying the revaluation model without an active market for the asset
+- Amortizing an asset with an indefinite useful life (should be tested for impairment instead)
+- Failing to reassess whether indefinite useful life remains appropriate each period
+- Capitalizing training costs or advertising expenditure
+
+**Related standards:** IFRS 3 (intangibles in business combinations), IAS 16 (property, plant and equipment — similar model), IAS 36 (impairment, especially for indefinite-life intangibles and goodwill), IFRS 6 (exploration and evaluation assets — excluded)
+
+---
+
+## IAS 40 — Investment Property
+
+**Scope:** Applies to investment property: land or a building (or part of a building) held to earn rentals, for capital appreciation, or both, rather than for use in production/supply of goods/services or for sale in the ordinary course of business. Includes property held under an operating lease that meets the definition (entity may elect to classify on a property-by-property basis). Excludes owner-occupied property (IAS 16), property held for sale in the ordinary course (IAS 2/IFRS 15), biological assets on land (IAS 41), and mineral rights.
+
+**Core principle:** An entity must choose either the fair value model or the cost model as its accounting policy for all investment property and apply it consistently. Under the fair value model, gains and losses from changes in fair value are recognized in profit or loss. Under the cost model, investment property is measured at depreciated cost less impairment, but fair value must still be disclosed.
+
+**Key rules:**
+- **Identification and classification:**
+  - Judgment required for properties with dual use (partly owner-occupied, partly let) — classify separately if portions can be sold/leased independently; otherwise only classify as investment property if the owner-occupied portion is insignificant
+  - Ancillary services: if services provided are a relatively insignificant component, property is investment property (e.g., building with security services); if services are significant (e.g., hotel), property is owner-occupied (IAS 16)
+- **Initial recognition:** At cost, including transaction costs; no start-up costs or initial operating losses before the property achieves planned occupancy
+- **Fair value model:**
+  - Measured at fair value at each reporting date; changes in fair value recognized in P&L
+  - If fair value cannot be reliably measured on a continuing basis (rare), use cost model for that property and disclose the situation; in practice, fair value is presumed determinable for completed investment property
+  - Properties under construction that are investment property: measured at fair value if reliably measurable; otherwise at cost until construction complete or fair value becomes reliably measurable
+  - NO depreciation under fair value model
+- **Cost model:**
+  - Depreciated cost (same as IAS 16 cost model) less any accumulated impairment losses
+  - Must disclose fair value of the investment property
+- **Transfers:**
+  - Transfers to/from investment property only when there is a change in use evidenced by:
+    - Owner-occupied → investment property: remeasure to fair value under IAS 16 (revaluation), then transfer; difference vs. carrying amount to OCI/P&L per IAS 16
+    - Investment property → owner-occupied: deemed cost for subsequent IAS 16 accounting is the fair value at date of change
+    - Investment property → inventories: deemed cost for IAS 2 is fair value at date of change
+    - Inventories → investment property (e.g., developer keeps a property): difference between fair value and carrying amount recognized in P&L
+  - Under cost model, transfers between categories at carrying amount with no P&L impact
+- **Disposal:** Derecognize on disposal or when no future economic benefits are expected; gain/loss is the difference between net disposal proceeds and carrying amount; recognize in P&L (not revenue)
+
+**Disclosure requirements:**
+- Whether fair value or cost model is used
+- Criteria to distinguish investment property from owner-occupied and inventory property
+- Methods and assumptions in determining fair value (for both models)
+- Fair value model: reconciliation of opening to closing carrying amounts; income/expenses from investment property; existence and amounts of restrictions; contractual obligations to purchase, construct, or develop
+- Cost model: depreciation methods, useful lives, gross carrying amounts, accumulated depreciation and impairment, reconciliation; fair value of the investment property (or explanation if not determinable)
+
+**Common pitfalls:**
+- Classifying hotel properties or student accommodation as investment property (they are owner-occupied if the services provided are significant)
+- Failing to recognize fair value changes in P&L under the fair value model (some entities incorrectly recognize in OCI)
+- Incorrectly accounting for transfers — particularly the IAS 16 revaluation treatment required on transfer from owner-occupied to investment property
+- Not depreciating under the cost model (many preparers omit depreciation on investment property)
+- Using net rental yield to impute fair value rather than using IFRS 13 valuation techniques
+
+**Related standards:** IAS 16 (owner-occupied property), IAS 2 (property held for sale — inventory), IFRS 13 (fair value measurement), IAS 36 (impairment under cost model), IFRS 16 (lease classification — right-of-use assets may be classified as investment property)
+
+---
+
+## IAS 41 — Agriculture
+
+**Scope:** Applies to biological assets (living animals and plants) in the context of agricultural activity, agricultural produce at the point of harvest, and government grants related to biological assets measured at fair value less costs to sell. Does not apply to land related to agricultural activity (IAS 16/IAS 40), intangible assets related to agricultural activity (IAS 38), or bearer plants (which are within IAS 16 following 2014 amendments).
+
+**Core principle:** A biological asset must be measured at fair value less costs to sell, both on initial recognition and at each subsequent reporting date, with changes recognized in profit or loss, unless fair value cannot be reliably measured. Agricultural produce harvested from biological assets is measured at fair value less costs to sell at the point of harvest; this becomes the cost basis for IAS 2 thereafter.
+
+**Key rules:**
+- **Definitions:**
+  - Biological asset: a living animal or plant (e.g., livestock, dairy cattle, vines, fruit trees excluding bearer plants, fish stocks, poultry)
+  - Agricultural produce: the harvested product from biological assets (e.g., milk, wool, picked grapes, harvested fish)
+  - Agricultural activity: management of the biological transformation of biological assets for sale, as agricultural produce, or as additional biological assets
+  - Harvest: detachment of produce from a biological asset or cessation of a biological asset's life processes
+  - Bearer plant (post-2014): a living plant used in the production/supply of agricultural produce, expected to bear produce for more than one period, and for which there is a remote likelihood of being sold as agricultural produce — accounted for under IAS 16, not IAS 41 (only the produce growing on the bearer plant remains under IAS 41)
+- **Measurement — fair value less costs to sell (FVLCTS):**
+  - Apply fair value hierarchy (IFRS 13): quoted market prices in active markets are the best evidence; if no active market, use most recent market transaction price, market prices for similar assets, or sector benchmarks
+  - Costs to sell: incremental costs directly attributable to disposal (commissions, levies, transfer taxes) — exclude transport costs if market price is for an asset at its current location
+  - Grouped by age, quality, or other attributes for measurement if prices exist for such groups
+- **Unreliable fair value exception:**
+  - Only on initial recognition and only if quoted market prices are not available and alternative fair value estimates are clearly unreliable
+  - Measure at cost less accumulated depreciation and impairment
+  - Once fair value becomes reliably measurable, switch to FVLCTS (prospective); do not restate
+  - This exception is expected to be rare
+- **Government grants related to biological assets at FVLCTS:**
+  - Unconditional: recognize when and only when the grant becomes receivable
+  - Conditional: recognize when conditions are met
+  - Contrast with IAS 20 treatment (which may permit deferral) — IAS 41's treatment takes precedence for biological assets in scope
+- **Agricultural produce:**
+  - Measured at FVLCTS at the point of harvest
+  - After harvest: IAS 2 (inventories) or other applicable standards; the harvest value is the cost for IAS 2 purposes — no further fair value accounting under IAS 41
+- **Gains and losses:**
+  - Initial recognition of biological assets at fair value: gain or loss in P&L
+  - Changes in fair value during the period: gain or loss in P&L
+  - Physical changes (growth, degeneration, procreation) and price changes are both reflected in the gain/loss; entities are encouraged but not required to disclose the split between physical change and price change components
+
+**Disclosure requirements:**
+- Aggregate gain or loss from initial recognition of biological assets and agricultural produce and from changes in fair value
+- Description of each group of biological assets
+- Biological asset carrying amounts split by consumable and bearer (note: bearer plants now in IAS 16; remaining in IAS 41 are animals/produce-bearing plants)
+- Methods and assumptions in determining fair value, including whether market prices are used or valuation techniques
+- Fair value of agricultural produce harvested during the period
+- Existence and carrying amounts of biological assets subject to restricted title or pledged as security
+- Commitments for development/acquisition of biological assets
+- Financial risk management strategies related to agricultural activity
+- Reconciliation of opening and closing carrying amounts of biological assets (showing physical changes separately from price changes if disclosed)
+- For government grants: nature and extent, conditions, significant decreases expected
+
+**Common pitfalls:**
+- Continuing to apply IAS 41 to bearer plants (post-2014 amendment these are within IAS 16)
+- Applying IAS 41 to agricultural land (IAS 16 or IAS 40)
+- Applying IAS 41 after harvest — post-harvest produce is within IAS 2
+- Including transport costs in costs to sell when the market price already reflects transport to market
+- Using cost as a proxy for fair value without properly establishing that fair value is unreliable
+- Double-counting the FVLCTS adjustment on both biological assets and government grants
+
+**Related standards:** IAS 2 (inventories — agricultural produce after harvest), IAS 16 (PP&E — bearer plants, agricultural land at cost), IAS 20 (government grants — general; IAS 41 overrides for in-scope biological assets), IAS 36 (impairment — applies to biological assets measured at cost under the unreliable fair value exception), IAS 40 (investment property — land used in agriculture), IFRS 13 (fair value measurement hierarchy)
+
+---
